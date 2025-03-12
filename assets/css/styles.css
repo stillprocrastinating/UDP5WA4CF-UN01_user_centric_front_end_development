@@ -64,6 +64,16 @@ body {
 }
 
 
+/* disclaimer section */
+
+.disclaimer {
+    font-size: 60%;
+    margin: 0 1vw 1vh 1vw;
+    position: sticky;
+    bottom: -5vh;
+}
+
+
 /* footer */
 
 footer {
