@@ -81,7 +81,6 @@ footer {
 
 .socials a {
     color: maroon;
-    margin-right: 2.5vw;
 }
 
 .socials button {
@@ -94,6 +93,7 @@ footer {
     font-size: small;
     font-weight: 100;
     margin: 0;
+    margin-right: 2.5vw;
     padding: 0;
     min-width: 5%;
     vertical-align: bottom;
