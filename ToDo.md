@@ -7,3 +7,8 @@ Add Homepage link to footer (once the homepage exists ;P haha).
 </a>
 ```
 
+Add page formatting for phones.
+```css
+@media screen and (max-width: 768px) {}
+```
+
