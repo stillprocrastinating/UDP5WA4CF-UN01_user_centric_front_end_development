@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=WindSong:wght@400;500&display=swap"); /* title font: "Windsong" */
+
+/* body */
+
+body {
+    background-color: rgb(255, 226, 215);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.5vw;
+    margin: auto;
+    width: 60%;
+}
+
+
+/* title */
+
+.title {
+    font-family: "WindSong", 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+    margin: 0;
+}
+
+.title1 {
+    color: rgb(50, 0, 0);
+    font-size: 6vw;
+    position: absolute;
+    right: 15%;
+    top: 10%;
+    width: 100%;
+}
+
+.title2 {
+    font-size: 8vw;
+    left: 12%;
+    position: absolute;
+    top: 25%;
+    width: 100%;
+}
+
+.title3 {
+    font-size: 8vw;
+    position: absolute;
+    right: 21%;
+    top: 31%;
+    width: 100%;
+}
+
+.title-container {
+    position: relative;
+    text-align: center;
+}
+
+.title-container img {
+    opacity: 0.3;
+    width: 45%;
+}
+
+.subtitle {
+    color: maroon;
+    font-family: 'Arial Narrow', sans-serif;
+    left: 25%;
+    position: absolute;
+    top: 60%;
+    width: 100%;
+}
+
