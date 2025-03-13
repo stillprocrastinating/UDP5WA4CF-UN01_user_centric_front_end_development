@@ -12,8 +12,6 @@ Add page formatting for phones.
 @media screen and (max-width: 768px) {}
 ```
 
-Add products section by section - including CSS.
-
 Write `README.md` Credits section about Marcel.
 
 Write `README.md` How to... section.

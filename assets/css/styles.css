@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=WindSong:wght@400;500&display=swap"); /* title font: "Windsong" */
 
+
 /* body */
 
 body {
@@ -8,6 +9,57 @@ body {
     font-size: 1.5vw;
     margin: auto;
     width: 60%;
+}
+
+h1 {
+    font-size: 200%;
+    margin-top: 0vh;
+}
+
+h2 {
+    font-size: 150%;
+}
+
+section > section {
+    margin: 0 2.5vw;
+}
+
+.center {
+    text-align: center;
+}
+
+.columns {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.left-column {
+    flex: 2 2 200px;
+}
+
+.right-column {
+    flex: 3 3 300px;
+    text-align: center;
+}
+
+.right-column ul {
+    margin-left: 5vw;
+    text-align: left;
+    /*list-style: disc outside url(../images/lips.png); FIX*/
+}
+
+.description {
+    color: coral;
+    font-size: 110%;
+    text-align: center;
+}
+
+.products {
+    color: maroon;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
 }
 
 
@@ -69,7 +121,7 @@ body {
 .disclaimer {
     font-size: 60%;
     margin: 0 1vw 1vh 1vw;
-    position: sticky;
+    position: sticky;     /* trying to get to stick above the footer at the bottom of the page, but only if there's not enough content to fill the page */
     bottom: -5vh;
 }
 
@@ -126,5 +178,94 @@ nav a {
 nav a:hover {
     color: coral;
     margin-right: 2.5vw;
+}
+
+
+/* lines */
+
+fieldset {
+    border: solid 2px tan;
+    border-radius: 1vw;
+    margin-bottom: 1vh;
+    padding: 1vh 2.5vw 1vh 2.5vw;
+}
+
+hr {
+    border-color: tan;
+}
+
+legend {
+    color: maroon;
+    font-family: "WindSong", 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 180%;
+    font-weight: 500;
+}
+
+.subdescription {
+    border: 5px brown;
+    border-style: outset;
+    border-radius: 5vw;
+}
+
+
+/* buttons */
+
+button {
+    background: brown;
+    border: outset 1px darkred;
+    border-radius: 100px;
+    box-shadow: 0 15px 20px rgba(165, 42, 42, 0.5);
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    font-weight: 100;
+    margin: 2.5vw;
+    padding: 2.5vw;
+    min-width: 50%;
+}
+
+button:hover {
+    background: brown;
+    border: outset 1px darkred;
+    border-radius: 100px;
+    box-shadow: 0 15px 20px rgba(165, 42, 42, 0.6);
+    color: coral;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    font-weight: 100;
+    margin: 2.5vw;
+    padding: 2.5vw;
+    min-width: 50%;
+}
+
+
+/* offers */
+
+.offer {
+    background-color: rgb(255, 228, 193);
+    border: 5px dotted coral;
+    color: brown;
+    padding: 1vh 2.5vw 1vh 2.5vw;
+    text-align: center;
+    font-weight: bold;
+}
+
+.offer-hide {
+    color: rgb(255, 228, 193);
+}
+
+.offer p:nth-of-type(1) {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 120%;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.offer p:nth-of-type(2) {
+    font-family: "WindSong", 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 500;
+    font-size: 2vw;
+    margin: 0;
+    padding: 0;
 }
 
