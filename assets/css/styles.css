@@ -269,3 +269,86 @@ button:hover {
     padding: 0;
 }
 
+
+/* phone compatibility */
+
+@media screen and (max-width: 768px) {
+
+
+    /* body */
+   
+    body {
+     width: 90%;
+    }
+
+    .left-column {
+        display: inline-block;
+        text-align: left;
+        vertical-align: top;
+        width: 40vw;
+    }
+
+    .right-column {
+        display: inline-block;
+        text-align: center;
+        width: 40vw;
+    }
+    
+    .right-column ul {
+        margin-left: 5vw;
+    }
+
+
+    /* header */
+    
+    .title {
+        font-family: "WindSong", 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: 400;
+        margin: 0;
+    }
+    
+    .title1 {
+        font-size: 9vw;
+        position: absolute;
+        right: 15%;
+        top: 9%;
+        width: 100%;
+    }
+    
+    .title2 {
+        font-size: 11vw;
+        left: 11%;
+        position: absolute;
+        top: 25%;
+        width: 100%;
+    }
+    
+    .title3 {
+        font-size: 11vw;
+        position: absolute;
+        right: 19.5%;
+        top: 31%;
+        width: 100%;
+    }
+    
+    .title-container {
+        position: relative;
+        text-align: center;
+    }
+    
+    .title-container img {
+        opacity: 0.3;
+        width: 45%;
+    }
+
+    .subtitle {
+        color: maroon;
+        font-family: 'Arial Narrow', sans-serif;
+        left: 25%;
+        position: absolute;
+        top: 60%;
+        width: 100%;
+    }
+
+}
+
