@@ -11,6 +11,40 @@ body {
 }
 
 
+/* navigation */
+
+nav {
+  background: #00727a;
+  text-align: center;
+  vertical-align: middle;
+  padding: 1vw;
+}
+
+nav .container {
+  display: flex;
+  gap: 1vw;
+  margin: 1vw;
+  justify-content: space-between;
+}
+
+nav button {
+  background: #0000007c;
+  border: none;
+  height: 5vw;
+  font-family: "Orbitron", "Courier New", Courier, monospace;
+  font-weight: 100;
+  font-size: 2vw;
+  flex-basis: 50vw;
+  padding: 1vw 2.5vw;
+  color: #a1f9ff;
+}
+
+nav button:hover {
+  background: #ff7dee41;
+  color: #460040;
+}
+
+
 /* header */
 
 header {
@@ -21,10 +55,10 @@ header {
 
 header h1 {
   font-family: "Orbitron", "Courier New", Courier, monospace;
-  font-size: 4vw;
-  padding: 25vw 0 2vw 0;
 }
 
+
+/* phones */
 
 @media screen and (max-width: 768px) {}
 
