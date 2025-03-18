@@ -24,3 +24,8 @@ The requirements for the course website design are 3 web pages, including a form
 1. ~~Provide the story of _Petrification Restoration Project_.~~
     <br>Provide the bibliography of _Amber Senescent_.
 
+### Continued releases
+
+- Previous campaigns, currently not finished typing up.
+- Future campaigns!
+
