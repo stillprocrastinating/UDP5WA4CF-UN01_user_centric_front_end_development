@@ -42,3 +42,17 @@ The requirements for the course website design are 3 web pages, including a form
 1. Content: The first 5 chapters of _Petrification Restoration Project_ teaser.
 1. Form: Ask story listeners whether they are interested in purchasing the full story of _Petrification Restoration Project_.
 
+### Information design
+
+## Skeleton
+
+### Interface design
+
+### Navigation design
+
+### Information design
+
+## Surface
+
+### Visual design
+
