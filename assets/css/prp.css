@@ -9,7 +9,7 @@ body {
   background: #a1f9ff;
   font-family: "Orbitron", "Courier New", Courier, monospace;
   font-weight: 100;
-  font-size: 2vw;
+  font-size: 100%;
   color: rgb(13, 13, 58);
 }
 
@@ -22,7 +22,7 @@ header {
 }
 
 header h1 {
-    font-size: 4vw;
+    font-size: 200%;
     padding: 25vw 0 2vw 0;
 }
 
@@ -34,15 +34,33 @@ fieldset {
     border: outset rgba(25, 25, 112, 0.75);
     border-radius: 5%;
     font-family: "Jersey 10 Charted", "Orbitron", "Courier New", Courier, monospace;
+    font-size: 125%;
     color: midnightblue;
 }
 
 legend {
     font-family: "Rubik Lines", "Orbitron", "Courier New", Courier, monospace;
-    font-size: 2.5vw;
+    font-size: 150%;
     color: midnightblue;
     position: relative;
     top: 0.5vw;
+}
+
+
+/* chapters */
+
+.chapter {
+    font-size: 150%;
+    padding: 25vw 0 2vw 0;
+    text-align: center;
+}
+
+/* chapter 1 */
+
+.one {
+    background: url(../images/prp/chapter1_background_image.jpg);
+    background-size: cover;
+    color: yellow;
 }
 
 

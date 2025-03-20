@@ -6,7 +6,6 @@ img {
 }
 
 
-
 /* navigation */
 
 nav {
@@ -53,6 +52,35 @@ header {
 
 header h1 {
   font-family: "Orbitron", "Courier New", Courier, monospace;
+}
+
+
+/* icons */
+
+svg {
+  vertical-align: text-top;
+}
+
+
+/* info */
+
+.info {
+  background: #00000050;
+  padding: 1%;
+  margin: 1%;
+  border-radius: 5%;
+}
+
+.info a {
+  color: yellow;
+}
+
+.info h1 {
+  margin-left: 5%;
+}
+
+.info h2,ul {
+  margin-left: 10%;
 }
 
 
