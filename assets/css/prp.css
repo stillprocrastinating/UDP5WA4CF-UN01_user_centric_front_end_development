@@ -44,3 +44,10 @@ legend {
     position: relative;
     top: 0.5vw;
 }
+
+
+/* fact */
+
+.fact h1 {
+    font-weight: normal;
+}
