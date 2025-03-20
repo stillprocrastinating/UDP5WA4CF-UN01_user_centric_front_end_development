@@ -1,7 +1,7 @@
 /* navigation */
 
 nav {
-  background: #00727a;
+  background: #00000050;
   text-align: center;
   vertical-align: middle;
   padding: 1vw;
@@ -15,7 +15,7 @@ nav .container {
 }
 
 nav button {
-  background: #0000007c;
+  background: #000000;
   border: none;
   height: 5vw;
   font-family: "Orbitron", "Courier New", Courier, monospace;
@@ -27,8 +27,10 @@ nav button {
 }
 
 nav button:hover {
-  background: #ff7dee41;
-  color: #460040;
+  background: #ff0000e5;
+  color: #000000;
+  font-weight: bold;
+  box-shadow: 0 0 50px #000000;
 }
 
 
