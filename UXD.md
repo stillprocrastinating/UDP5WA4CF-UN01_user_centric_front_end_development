@@ -54,10 +54,27 @@ All content pages should be accessible from the homepage.
 
 ### Interface design
 
+#### Homepage
+
+1. Titled with _Dungeons & Dragons_ image banner.
+1. Introductory _Dungeons & Dragons_ content.
+1. Introduce _Paramore_ as the land the stories occur in (and give credit to Lyndon and Ryan).
+1. Tiles of stories with background images - set the vibe for the story (to be doubled in the content & form page title banners).
+
+#### Content pages
+
+1. Titled with respective image banners.
+1. Blurb.
+1. Chapters separated by image banners - set the scene.
+
+#### Form pages
+
+1. Titled with respective image banner.
+
 ### Navigation design
 
 - Phones: Burger icon hidden menus.
-- Larger devices: Top of screen menus. Hidden chapter select menus.
+- Larger devices: Top of screen menus. Hidden/dropdown chapter select menus.
 
 ### Information design
 
