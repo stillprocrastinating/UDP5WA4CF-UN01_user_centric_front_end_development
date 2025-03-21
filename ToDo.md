@@ -4,3 +4,4 @@
 
 - `README.md` How To... section.
 
+- `README.md` Add https://amiresponsive.co.uk infographic.
