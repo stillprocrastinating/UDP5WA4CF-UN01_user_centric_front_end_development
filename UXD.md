@@ -38,13 +38,17 @@ The requirements for the course website design are 3 web pages, including a form
 
 ### Interaction design
 
+Each form is respective to each content page; therefore, each form should only be accessible from each respective content page.
+
+All content pages should be accessible from the homepage.
+
+### Information design
+
 - Homepage: _Dungeons & Dragons_ introductory content.
     - Content: The first 5 chapters of _Petrification Restoration Project_ teaser.
         - Form: Ask story listeners whether they are interested in purchasing the full story of _Petrification Restoration Project_.
     - Content: The first 5 chapters of Continued releases teasers.
         - Form: Ask story listeners whether they are interested in purchasing the full stories of _Continued releases_.
-
-### Information design
 
 ## Skeleton
 
