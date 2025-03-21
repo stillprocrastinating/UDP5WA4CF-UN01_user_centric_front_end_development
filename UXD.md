@@ -56,6 +56,9 @@ All content pages should be accessible from the homepage.
 
 ### Navigation design
 
+- Phones: Burger icon hidden menus.
+- Larger devices: Top of screen menus. Hidden chapter select menus.
+
 ### Information design
 
 ## Surface
