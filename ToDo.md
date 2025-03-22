@@ -7,3 +7,5 @@
 - `README.md` Add https://amiresponsive.co.uk infographic.
 
 - `prp.html` Add chapter select nav.
+
+- `prp.html` Potentially add [Zalgo](https://zalgo.org) text - but it's not compatible with the fonts.
