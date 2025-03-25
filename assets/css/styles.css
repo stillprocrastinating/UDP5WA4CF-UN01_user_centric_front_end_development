@@ -45,8 +45,7 @@ nav button:hover {
 /* header */
 
 header {
-  background: url(../images/header_background_image.jpg);
-  background-size: cover;
+  background: url(../images/header_background_image.webp) no-repeat bottom right/cover;
   text-align: center;
 }
 
