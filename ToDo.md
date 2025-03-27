@@ -13,3 +13,5 @@
 - `index.html` `prp.html` `prp-form.html` Add css dropdown nav for phones.
 
 - `index.html` Get functional for deployment.
+
+- `template.html` Finish html and style footer.
