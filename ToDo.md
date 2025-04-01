@@ -16,4 +16,4 @@
 
 - `template.html` Finish html and style footer.
 
-- `index.html` Add disabled nav links to the upcoming works.
+- `index.html` Add disabled (Bootstrap) nav links to the upcoming works.
