@@ -15,3 +15,5 @@
 - `index.html` Get functional for deployment.
 
 - `template.html` Finish html and style footer.
+
+- `index.html` Add disabled nav links to the upcoming works.
