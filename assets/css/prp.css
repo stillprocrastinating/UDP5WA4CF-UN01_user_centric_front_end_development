@@ -13,6 +13,12 @@ body {
   color: rgb(13, 13, 58);
 }
 
+.wallbreak {
+    font-family: "Jersey 10 Charted", "Orbitron", "Courier New", Courier, monospace;
+    font-size: 125%;
+    color: midnightblue;
+}
+
 
 /* header */
 
