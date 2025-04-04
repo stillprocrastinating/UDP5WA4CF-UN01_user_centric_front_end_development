@@ -73,3 +73,15 @@ legend {
 .fact h1 {
     font-weight: normal;
 }
+
+/* end  */
+
+#end button {
+    background: #7a7a7aaa url(../images/prp/buttons.webp) no-repeat center center / cover;
+    border: none;
+    display: inline-block;
+    height: 1.25rem;
+    width: 100%;
+    color: white;
+    font-family: "Rubik Lines", "Orbitron", "Courier New", Courier, monospace;
+}
