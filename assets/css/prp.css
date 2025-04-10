@@ -5,18 +5,27 @@
 
 /* body */
 
+:root {
+    --color-body: rgb(13, 13, 58);
+    --color-body-highlight: midnightblue;
+    --color-body-link: yellow;
+    --color-dark: rgba(25, 25, 112, 0.75);
+    --color-light: #a1f9ff;
+    --color-transparent: rgba(25, 25, 112, 0.25);
+}
+
 body {
-  background: #a1f9ff;
+  background: var(--color-light);
   font-family: "Orbitron", "Courier New", Courier, monospace;
   font-weight: 100;
   font-size: 100%;
-  color: rgb(13, 13, 58);
+  color: var(--color-body);
 }
 
 .wallbreak {
     font-family: "Jersey 10 Charted", "Orbitron", "Courier New", Courier, monospace;
     font-size: 125%;
-    color: midnightblue;
+    color: var(--color-body-highlight);
 }
 
 
@@ -35,18 +44,18 @@ header h1 {
 /* blurb */
 
 fieldset {
-    background: rgba(25, 25, 112, 0.25);
-    border: outset rgba(25, 25, 112, 0.75);
+    background: var(--color-transparent);
+    border: outset var(--color-dark);
     border-radius: 5%;
     font-family: "Jersey 10 Charted", "Orbitron", "Courier New", Courier, monospace;
     font-size: 125%;
-    color: midnightblue;
+    color: var(--color-body-highlight);
 }
 
 legend {
     font-family: "Rubik Lines", "Orbitron", "Courier New", Courier, monospace;
     font-size: 150%;
-    color: midnightblue;
+    color: var(--color-body-highlight);
     position: relative;
     top: 0.5vw;
 }
@@ -64,7 +73,7 @@ legend {
 
 .one {
     background: url(../images/prp/chapter1_background_image.webp) no-repeat center center/cover;
-    color: yellow;
+    color: var(--color-body-link);
 }
 
 
@@ -77,7 +86,7 @@ legend {
 /* end of teaser  */
 
 #end button {
-    background: #7a7a7aaa url(../images/prp/buttons.webp) no-repeat center center / cover;
+    background: var(--color-transparent-dark) url(../images/prp/buttons.webp) no-repeat center center / cover;
     border: none;
     display: inline-block;
     height: 1.25rem;

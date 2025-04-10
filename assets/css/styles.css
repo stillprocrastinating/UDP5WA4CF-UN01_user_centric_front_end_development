@@ -1,5 +1,10 @@
 /* body */
 
+:root {
+  --color-dnd-red: #ff0000e5;
+  --color-transparent-dark: #00000050;
+}
+
 img {
   margin: 1vh 0 0 0;
   border-radius: 5%;
@@ -9,7 +14,7 @@ img {
 /* navigation */
 
 nav {
-  background: #00000050;
+  background: var(--color-transparent-dark);
   text-align: center;
   vertical-align: middle;
   padding: 1vw;
@@ -31,11 +36,11 @@ nav button {
   font-size: 2vw;
   flex-basis: 50vw;
   padding: 1vw 2.5vw;
-  color: #a1f9ff;
+  color: var(--color-light);
 }
 
 nav button:hover {
-  background: #ff0000e5;
+  background: var(--color-dnd-red);
   color: #000000;
   font-weight: bold;
   box-shadow: 0 0 50px #000000;
@@ -64,14 +69,14 @@ svg {
 /* info */
 
 .info {
-  background: #00000050;
+  background: var(--color-transparent-dark);
   padding: 1%;
   margin: 1%;
   border-radius: 5%;
 }
 
 .info a {
-  color: yellow;
+  color: var(--color-body-link);
 }
 
 .info h1 {
