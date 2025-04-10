@@ -80,6 +80,13 @@ legend {
     color: var(--color-body-link);
 }
 
+/* chapter 2 */
+
+.two {
+    background: url(../images/prp/chapter2_background_image.webp) no-repeat center 69%/cover;
+    color: var(--color-body-link);
+}
+
 
 /* fact */
 
