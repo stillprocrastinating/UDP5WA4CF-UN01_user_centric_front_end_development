@@ -34,7 +34,7 @@ nav a {
 nav button {
   background: #000000;
   border: none;
-  height: 25px;
+  /*height: 25px;*/
   font-family: "Orbitron", "Courier New", Courier, monospace;
   font-weight: 100;
   padding: 5px 2.5vw;

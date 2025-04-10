@@ -50,6 +50,8 @@ fieldset {
     font-family: "Jersey 10 Charted", "Orbitron", "Courier New", Courier, monospace;
     font-size: 125%;
     color: var(--color-body-highlight);
+    padding: 1%;
+    margin: 1%;
 }
 
 legend {
@@ -58,6 +60,8 @@ legend {
     color: var(--color-body-highlight);
     position: relative;
     top: 0.5vw;
+    float: unset;
+    width: auto;
 }
 
 
