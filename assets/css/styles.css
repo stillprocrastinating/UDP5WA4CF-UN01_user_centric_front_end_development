@@ -20,7 +20,7 @@ nav {
   padding: 1vw;
 }
 
-nav .container {
+nav a {
   display: flex;
   gap: 1vw;
   margin: 1vw;
