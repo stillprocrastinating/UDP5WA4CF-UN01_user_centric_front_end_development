@@ -76,14 +76,21 @@ legend {
 /* chapter 1 */
 
 .one {
-    background: url(../images/prp/chapter1_background_image.webp) no-repeat center center/cover;
+    background: var(--color-transparent-dark) url(../images/prp/chapter1_background_image.webp) no-repeat center center/cover;
     color: var(--color-body-link);
 }
 
 /* chapter 2 */
 
 .two {
-    background: url(../images/prp/chapter2_background_image.webp) no-repeat center 69%/cover;
+    background: var(--color-transparent-dark) url(../images/prp/chapter2_background_image.webp) no-repeat center 69%/cover;
+    color: var(--color-body-link);
+}
+
+/* chapter 3 */
+
+.three {
+    background: var(--color-transparent-dark) url(../images/prp/chapter3_background_image.webp) no-repeat center 69%/cover;
     color: var(--color-body-link);
 }
 
