@@ -30,7 +30,7 @@ nav .container {
 nav button {
   background: #000000;
   border: none;
-  height: 5vw;
+  height: 25px;
   font-family: "Orbitron", "Courier New", Courier, monospace;
   font-weight: 100;
   flex-basis: 50vw;
