@@ -20,11 +20,15 @@ nav {
   padding: 1vw;
 }
 
-nav a {
+nav .container {
   display: flex;
   gap: 1vw;
   margin: 1vw;
   justify-content: space-between;
+}
+
+nav a {
+  flex-basis: 10vw;
 }
 
 nav button {
@@ -33,7 +37,6 @@ nav button {
   height: 25px;
   font-family: "Orbitron", "Courier New", Courier, monospace;
   font-weight: 100;
-  flex-basis: 50vw;
   padding: 5px 2.5vw;
   color: var(--color-light);
 }
