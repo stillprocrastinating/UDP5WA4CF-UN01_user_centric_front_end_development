@@ -83,12 +83,16 @@ nav .show {
 /* header */
 
 header {
-  background: url(../images/header_background_image.webp) no-repeat bottom right/cover;
-  text-align: center;
+  background: url(../images/header_background_image.webp) no-repeat center center / cover;
+  min-height: 100px;
+  max-height: 258px;
+  max-width: 733px;
+  text-align: end;
 }
 
 header h1 {
   font-family: var(--font-h);
+  line-height: 333%;
 }
 
 
@@ -116,7 +120,7 @@ svg {
   margin-left: 5%;
 }
 
-.info h2,ul {
+.info h2, ul {
   margin-left: 10%;
 }
 
