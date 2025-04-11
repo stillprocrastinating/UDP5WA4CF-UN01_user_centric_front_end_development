@@ -33,12 +33,18 @@ nav .container {
   justify-content: space-between;
 }
 
-nav a {
+nav a, nav p {
   font-family: var(--font-p);
+  letter-spacing: 1px;
+  margin: auto;
   font-size: x-large;
   line-height: 25px;
   color: var(--color-dnd-red);
   flex-basis: 10vw;
+}
+
+.nav-link {
+  font-size: x-large;
 }
 
 nav button {
@@ -56,8 +62,21 @@ nav button:hover {
   box-shadow: 0 0 50px #000000;
 }
 
-.disabled {
-  color: grey;
+nav button:hover p {
+  color: #000000;
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+small {
+  font-size: small;
+}
+
+nav .show {
+  margin-top: 10px;
 }
 
 
