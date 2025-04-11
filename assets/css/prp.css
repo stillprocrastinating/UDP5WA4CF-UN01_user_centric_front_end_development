@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap'); /* primary font */
-@import url('https://fonts.googleapis.com/css2?family=Rubik+Lines&display=swap'); /* glitch h font */
-@import url('https://fonts.googleapis.com/css2?family=Jersey+10+Charted&display=swap'); /* glitch p font */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap'); /* font p */
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Lines&display=swap'); /* font glitch h */
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10+Charted&display=swap'); /* font glitch p */
 
 
 /* body */
@@ -12,14 +12,14 @@
     --color-dark: rgba(25, 25, 112, 0.75);
     --color-light: #a1f9ff;
     --color-transparent: rgba(25, 25, 112, 0.25);
-    --font-primary: "Orbitron", "Courier New", Courier, monospace;
     --font-glitch-h: "Rubik Lines", "Orbitron", "Courier New", Courier, monospace;
     --font-glitch-p: "Jersey 10 Charted", "Orbitron", "Courier New", Courier, monospace;
+    --font-p: "Orbitron", "Courier New", Courier, monospace;
 }
 
 body {
   background: var(--color-light);
-  font-family: var(--font-primary);
+  font-family: var(--font-p);
   font-weight: 100;
   font-size: 100%;
   color: var(--color-body);
