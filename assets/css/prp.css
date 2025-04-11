@@ -39,6 +39,7 @@ header {
 }
 
 header h1 {
+    font-family: var(--font-p);
     font-size: 200%;
     padding: 25vw 0 2vw 0;
 }
