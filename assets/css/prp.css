@@ -98,6 +98,13 @@ legend {
     color: var(--color-body-link);
 }
 
+/* chapter 4 */
+
+.four {
+    background: var(--color-transparent-dark) url(../images/prp/chapter4_background_image.webp) no-repeat center 40%/cover;
+    color: var(--color-body-link);
+}
+
 
 /* fact */
 
