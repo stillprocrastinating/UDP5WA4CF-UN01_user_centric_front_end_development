@@ -34,6 +34,11 @@ body {
 
 /* nav */
 
+nav {
+    position: sticky;
+    top: 0;
+  }
+
 nav .collapse a {
     font-size: small;
 }
