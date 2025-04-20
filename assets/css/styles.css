@@ -23,21 +23,21 @@ nav {
   background: var(--color-transparent-dark);
   text-align: center;
   vertical-align: middle;
-  padding: 1vw;
+  position: fixed;
 }
 
 nav .container {
   display: flex;
+  min-width: 100vw;
   gap: 1vw;
-  margin: 1vw;
-  justify-content: space-between;
+  padding: 2.5vw;
+  justify-content: space-around;
 }
 
 nav a, nav p {
   font-family: var(--font-p);
   letter-spacing: 1px;
   margin: auto;
-  font-size: x-large;
   line-height: 25px;
   color: var(--color-dnd-red);
   flex-basis: 10vw;
