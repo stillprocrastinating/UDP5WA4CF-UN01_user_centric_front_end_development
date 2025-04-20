@@ -32,6 +32,13 @@ body {
 }
 
 
+/* nav */
+
+nav .collapse a {
+    font-size: small;
+}
+
+
 /* header */
 
 header {
