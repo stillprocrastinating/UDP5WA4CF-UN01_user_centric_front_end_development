@@ -80,6 +80,7 @@ All content pages should be accessible from the homepage.
 1. Titled with respective image banners.
 1. Blurb.
 1. Chapters separated by image banners - set the scene.
+1. Thank you and feedback form button.
 
 #### Form pages
 
