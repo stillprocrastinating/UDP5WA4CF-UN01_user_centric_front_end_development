@@ -44,13 +44,14 @@ nav .collapse a {
 header {
     background: url(../images/prp/header_background_image.webp) no-repeat bottom center / cover;
     text-align: center;
+    padding-top: 10vh;
+    padding-bottom: 1vh;
 }
 
 header h1 {
     font-family: var(--font-p);
+    color: black;
     font-size: 100%;
-    line-height: normal;
-    padding: 25vw 0 2vw 0;
 }
 
 
