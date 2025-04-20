@@ -43,6 +43,11 @@ nav a, nav p {
   flex-basis: 10vw;
 }
 
+nav .collapse a {
+  font-size: small;
+  color: var(--color-body-link);
+}
+
 .nav-link {
   font-size: x-large;
 }
