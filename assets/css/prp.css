@@ -105,6 +105,13 @@ legend {
     color: var(--color-body-link);
 }
 
+/* chapter 5 */
+
+.five {
+    background: var(--color-transparent-dark) url(../images/prp/chapter5_background_image.webp) repeat center center/contain;
+    color: var(--color-body-link);
+}
+
 
 /* fact */
 
