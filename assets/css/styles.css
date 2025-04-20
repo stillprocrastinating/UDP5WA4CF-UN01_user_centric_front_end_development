@@ -92,15 +92,14 @@ nav .show {
 
 header {
   background: url(../images/header_background_image.webp) no-repeat center center / cover;
-  min-height: 100px;
-  max-height: 258px;
-  max-width: 733px;
-  text-align: end;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 100px;
 }
 
 header h1 {
   font-family: var(--font-h);
-  line-height: 333%;
+  color: azure;
 }
 
 
