@@ -85,6 +85,8 @@ All content pages should be accessible from the homepage.
 #### Form pages
 
 1. Titled with respective image banner.
+1. Form to collect basic contact details and teaser opinion.
+1. Link to the [Amazon](https://www.amazon.co.uk/) site to purchase the full story.
 
 ### Navigation design
 
