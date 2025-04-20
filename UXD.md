@@ -68,6 +68,8 @@ All content pages should be accessible from the homepage.
 
 ### Interface design
 
+All pages will feature a navigation menu, styled according to the theme of each story; the homepage will be themed with standard _Dungeons & Dragons_ vibes.
+
 #### Homepage
 
 1. Titled with _Dungeons & Dragons_ image banner.
