@@ -35,7 +35,7 @@ body {
 /* header */
 
 header {
-    background: url(../images/prp/header_background_image.webp) no-repeat bottom right/cover;
+    background: url(../images/prp/header_background_image.webp) no-repeat bottom right / cover;
 }
 
 header h1 {
@@ -80,35 +80,35 @@ legend {
 /* chapter 1 */
 
 .one {
-    background: var(--color-transparent-dark) url(../images/prp/chapter1_background_image.webp) no-repeat center center/cover;
+    background: var(--color-transparent-dark) url(../images/prp/chapter1_background_image.webp) no-repeat center center / cover;
     color: var(--color-body-link);
 }
 
 /* chapter 2 */
 
 .two {
-    background: var(--color-transparent-dark) url(../images/prp/chapter2_background_image.webp) no-repeat center 69%/cover;
+    background: var(--color-transparent-dark) url(../images/prp/chapter2_background_image.webp) no-repeat center 69% / cover;
     color: var(--color-body-link);
 }
 
 /* chapter 3 */
 
 .three {
-    background: var(--color-transparent-dark) url(../images/prp/chapter3_background_image.webp) no-repeat center 69%/cover;
+    background: var(--color-transparent-dark) url(../images/prp/chapter3_background_image.webp) no-repeat center 69% / cover;
     color: var(--color-body-link);
 }
 
 /* chapter 4 */
 
 .four {
-    background: var(--color-transparent-dark) url(../images/prp/chapter4_background_image.webp) no-repeat center 40%/cover;
+    background: var(--color-transparent-dark) url(../images/prp/chapter4_background_image.webp) no-repeat center 40% / cover;
     color: var(--color-body-link);
 }
 
 /* chapter 5 */
 
 .five {
-    background: var(--color-transparent-dark) url(../images/prp/chapter5_background_image.webp) repeat center center/contain;
+    background: var(--color-transparent-dark) url(../images/prp/chapter5_background_image.webp) repeat center center / contain;
     color: var(--color-body-link);
 }
 
@@ -125,7 +125,7 @@ legend {
     background: var(--color-transparent-dark) url(../images/prp/buttons.webp) no-repeat center center / cover;
     border: none;
     display: inline-block;
-    height: 1.25rem;
+    height: 2rem;
     width: 100%;
     color: white;
     font-family: var(--font-glitch-h);
