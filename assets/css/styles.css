@@ -46,12 +46,13 @@ nav a, nav p {
   flex-basis: 10vw;
 }
 
-nav .collapse a {
-  color: var(--color-body-link);
+.nav-link {
+  color: white;
+  font-size: x-large;
 }
 
-.nav-link {
-  font-size: x-large;
+.nav-link.disabled {
+  color: white;
 }
 
 nav button {
@@ -93,13 +94,12 @@ nav .show {
 header {
   background: url(../images/header_background_image.webp) no-repeat 30% 100% / cover;
   text-align: center;
-  padding-top: 80px;
-  padding-bottom: 20vh;
+  padding-top: 25vh;
+  padding-bottom: 1vh;
 }
 
 header h1 {
   font-family: var(--font-h);
-  color: azure;
 }
 
 
