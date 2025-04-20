@@ -24,8 +24,9 @@ nav {
   background: var(--color-transparent-dark);
   text-align: center;
   vertical-align: middle;
-  position: fixed;
   font-weight: bold;
+  position: sticky;
+  top: 0;
 }
 
 nav .container {
