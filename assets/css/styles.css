@@ -5,7 +5,7 @@
 /* body */
 
 :root {
-  --color-body-link: #ff0000;
+  --color-body-link: var(--color-dnd-red);
   --color-dnd-red: #ff0000e5;
   --color-transparent-dark: #00000050;
   --font-h: 'Eagle Lake', serif;
