@@ -13,3 +13,5 @@
 - `index.html` Add disabled (Bootstrap) nav links to the upcoming works.
 
 - `prp.html` Add flexbox functionality to `<h1>Group 10461</h1>` / `.info`.
+
+- `index.html` Move the Blurbs onto the homepage.
