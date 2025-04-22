@@ -123,6 +123,10 @@ header {
 
 /* story tiles */
 
+.card {
+  margin-top: 2vh;
+}
+
 .coming-soon {
   color: var(--color-dnd-red);
   text-decoration: underline;
