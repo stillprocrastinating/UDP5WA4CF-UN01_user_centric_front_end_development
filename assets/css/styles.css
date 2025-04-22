@@ -10,6 +10,11 @@
   --color-transparent-dark: #00000050;
   --font-h: 'Eagle Lake', serif;
   --font-p: 'Poiret One', sans-serif;
+  --home-body: #FEE8C3;
+}
+
+body {
+  background: var(--home-body);
 }
 
 .container {
@@ -71,12 +76,14 @@ nav button {
 nav button:hover {
   background: var(--color-dnd-red);
   color: #000000;
+  transition: 1s;
   font-weight: bold;
   box-shadow: 0 0 50px #000000;
 }
 
 nav button:hover p {
   color: #000000;
+  transition: 1s;
   font-weight: bold;
 }
 
