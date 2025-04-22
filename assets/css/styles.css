@@ -143,37 +143,39 @@ svg {
 /* footer */
 
 footer {
-    background-color: var(--color-transparent-dark);
-    display: flex;
-    justify-content: space-evenly;
+  background-color: var(--color-transparent-dark);
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .socials {
-    flex-basis: 50%;
-    display: flex;
-    justify-content: space-evenly;
+  flex-basis: 50%;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 footer button {
-    background-color: #00000000;
-    border: none;
-    border-radius: 0;
-    box-shadow: none;
-    padding: 0;
-    margin: 15px 5px 5px;
-    font-size: normal;
+  background-color: #00000000;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  padding: 0;
+  margin: 15px 5px;
+  font-size: normal;
+  min-width: 25px;
 }
 
 footer button:hover {
-    box-shadow: none;
+  box-shadow: none;
 }
 
 footer path {
-    fill: var(--color-dnd-red);
+  fill: var(--color-dnd-red);
 }
 
 footer button:hover path {
-  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+  fill: #000000;
+  transition: 5s;
 }
 
 
