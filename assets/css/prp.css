@@ -25,6 +25,10 @@ body {
   color: var(--color-body);
 }
 
+h1 {
+    font-family: var(--font-p);
+}
+
 .wallbreak {
     font-family: var(--font-glitch-p);
     font-size: 125%;

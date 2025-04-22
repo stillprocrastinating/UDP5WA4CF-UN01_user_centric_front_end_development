@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Eagle+Lake&display=swap'); /* font h */
 @import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap'); /* font p */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap'); /* prp */
 
 
 /* body */
@@ -15,10 +16,20 @@
 
 body {
   background: var(--home-body);
+  font-family: var(--font-p);
 }
 
 .container {
   max-width: 90%;
+}
+
+h1, h2 {
+  font-family: var(--font-h);
+  margin: 0px;
+}
+
+p {
+  font-family: var(--font-p);
 }
 
 img {
@@ -109,9 +120,15 @@ header {
   padding-bottom: 1vh;
 }
 
-header h1 {
-  font-family: var(--font-h);
-  margin: 0px;
+
+/* story tiles */
+
+.prp h5 {
+  font-family: "Orbitron", "Courier New", Courier, monospace;
+}
+
+.prp p {
+  font-family: "Orbitron", "Courier New", Courier, monospace;
 }
 
 
