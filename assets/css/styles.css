@@ -129,7 +129,7 @@ header {
 
 .coming-soon {
   color: var(--color-dnd-red);
-  text-decoration: underline;
+  text-decoration: underline black dashed 1px;
 }
 
 .prp h5 {
