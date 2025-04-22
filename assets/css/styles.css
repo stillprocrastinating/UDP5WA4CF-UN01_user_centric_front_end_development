@@ -123,6 +123,11 @@ header {
 
 /* story tiles */
 
+.coming-soon {
+  color: var(--color-dnd-red);
+  text-decoration: underline;
+}
+
 .prp h5 {
   font-family: "Orbitron", "Courier New", Courier, monospace;
   color: #a1f9ff;
@@ -134,7 +139,11 @@ header {
 
 .prp a {
   color: yellow;
-  font-size: medium;
+}
+
+.bob h5 {
+  font-family: var(--font-h);
+  color: var(--home-body);
 }
 
 
