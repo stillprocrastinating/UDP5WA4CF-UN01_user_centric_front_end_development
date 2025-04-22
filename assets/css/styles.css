@@ -125,10 +125,16 @@ header {
 
 .prp h5 {
   font-family: "Orbitron", "Courier New", Courier, monospace;
+  color: #a1f9ff;
 }
 
 .prp p {
   font-family: "Orbitron", "Courier New", Courier, monospace;
+}
+
+.prp a {
+  color: yellow;
+  font-size: medium;
 }
 
 
