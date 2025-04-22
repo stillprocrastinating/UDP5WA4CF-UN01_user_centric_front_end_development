@@ -147,8 +147,10 @@ svg {
   /* header */
 
   header {
-    padding-top: 1vh;
-    padding-bottom: 50vh;
+    padding-top: 25vh;
+    padding-bottom: 25vh;
+    text-align: end;
+    padding-right: 10vw;
   }
 }
 
