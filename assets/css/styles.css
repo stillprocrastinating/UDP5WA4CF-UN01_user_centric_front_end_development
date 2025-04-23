@@ -19,6 +19,10 @@ body {
   font-family: var(--font-p);
 }
 
+main {
+  min-height: 75vh;
+}
+
 .container {
   max-width: 90%;
 }
