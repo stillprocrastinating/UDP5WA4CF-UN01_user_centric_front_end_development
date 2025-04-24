@@ -134,6 +134,10 @@ header {
   font-size: medium;
 }
 
+#about .card {
+  color: var(--color-body-background);
+}
+
 #about .card-header {
   background-color: var(--color-quote-header);
 }
