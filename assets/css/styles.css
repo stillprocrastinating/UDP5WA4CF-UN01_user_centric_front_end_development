@@ -218,6 +218,13 @@ svg {
 }
 
 
+/* form */
+
+#star-rating path {
+  border: 2px solid black;
+}
+
+
 /* footer */
 
 footer {
