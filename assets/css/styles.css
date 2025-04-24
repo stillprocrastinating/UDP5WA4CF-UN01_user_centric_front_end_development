@@ -6,16 +6,18 @@
 /* body */
 
 :root {
+  --color-body-background: #FEE8C3;
   --color-body-link: var(--color-dnd-red);
   --color-dnd-red: #ff0000e5;
   --color-transparent-dark: #00000050;
+  --color-quote-header: #454731;
+  --color-quote-body: #78744F;
   --font-h: 'Eagle Lake', serif;
   --font-p: 'Poiret One', sans-serif;
-  --home-body: #FEE8C3;
 }
 
 body {
-  background: var(--home-body);
+  background: var(--color-body-background);
   font-family: var(--font-p);
 }
 
@@ -27,7 +29,7 @@ main {
   max-width: 90%;
 }
 
-h1, h2 {
+h1, h2, h3, .fake-header {
   font-family: var(--font-h);
   margin: 0px;
 }
@@ -126,6 +128,30 @@ header {
 }
 
 
+/* about */
+
+#about h3 {
+  font-size: medium;
+}
+
+#about .card-header {
+  background-color: var(--color-quote-header);
+}
+
+#about .card-body {
+  background-color: var(--color-quote-body);
+}
+
+.blockquote {
+  font-size: small;
+}
+
+.blockquote-footer {
+  font-size: medium;
+  font-weight: bold;
+}
+
+
 /* story tiles */
 
 .coming-soon {
@@ -148,7 +174,7 @@ header {
 
 .bob h5 {
   font-family: var(--font-h);
-  color: var(--home-body);
+  color: var(--color-body-background);
 }
 
 
