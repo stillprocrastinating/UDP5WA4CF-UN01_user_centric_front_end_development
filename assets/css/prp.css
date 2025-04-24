@@ -150,3 +150,13 @@ legend {
     color: white;
     font-family: var(--font-glitch-h);
 }
+
+.end__button {
+    background: var(--color-transparent-dark) url(../images/prp/buttons.webp) no-repeat center center / cover;
+    border: none;
+    display: inline-block;
+    height: 2rem;
+    width: 100%;
+    color: white;
+    font-family: var(--font-glitch-h);
+}
