@@ -264,7 +264,13 @@ footer button:hover path {
 }
 
 
-/* larger devices */
+/* device media queries */
+
+@media screen and (max-width: 768px) {
+  .card-img-overlay {
+    position: initial;
+  }
+}
 
 @media screen and (min-width: 768px) {
   
