@@ -34,6 +34,7 @@ h1, h2 {
 
 p {
   font-family: var(--font-p);
+  margin: 0px;
 }
 
 img {
