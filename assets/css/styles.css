@@ -29,6 +29,11 @@ main {
   max-width: 90%;
 }
 
+.hidden {
+  color: transparent;
+  font-size: xx-small;
+}
+
 h1, h2, h3, .fake-header {
   font-family: var(--font-h);
   margin: 0px;
@@ -220,8 +225,8 @@ svg {
 
 /* form */
 
-#star-rating path {
-  border: 2px solid black;
+.star {
+  fill: var(--color-dnd-red);
 }
 
 
