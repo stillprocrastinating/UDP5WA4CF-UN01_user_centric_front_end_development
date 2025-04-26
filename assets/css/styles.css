@@ -227,6 +227,15 @@ svg {
 
 .star {
   fill: var(--color-dnd-red);
+  transition: 1s;
+}
+
+label:hover .star {
+  fill: gold;
+}
+
+#star1:checked .star1 {
+  fill: gold;
 }
 
 
