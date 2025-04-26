@@ -71,6 +71,7 @@ nav .container {
 
 nav a, nav p {
   font-family: var(--font-p);
+  font-size: x-large;
   letter-spacing: 1px;
   margin: auto;
   line-height: 25px;
