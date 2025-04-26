@@ -54,15 +54,21 @@
         Petrification Restoration Project - Feedback Form
       </h1>
     </header>
-    <main>
+    <main class="text-center">
       <form action="post">
-        <!-- name --><div class="col-9 text-center">
+        <!-- name --><div class="col-9">
           <label for="name">
             Name:
           </label>
           <input id="name" type="text">
         </div>
-        <!-- rating --><div class="col-9 text-center">
+        <!-- email --><div class="col-9">
+          <label for="email">
+            Email:
+          </label>
+          <input id="email" type="email">
+        </div>
+        <!-- rating --><div class="col-9">
           <div id="star-rating">
             <input type="radio" id="star1" name="star" checked="checked">
             <label for="star1">
@@ -127,7 +133,7 @@
       </div>
     </footer>
     <!-- Bootstrap --><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
-    <!--Font Awesome --><script src="https://kit.fontawesome.com/f16d074ce1.js" crossorigin="anonymous"></script>
+    <!-- Font Awesome --><script src="https://kit.fontawesome.com/f16d074ce1.js" crossorigin="anonymous"></script>
     <!-- nav .collapse auto close after anchor click --><script>
       document
       .querySelectorAll(".collapse .nav-link")
