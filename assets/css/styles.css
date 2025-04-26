@@ -234,6 +234,7 @@ label:hover .star {
   fill: gold;
 }
 
+/* FIX */
 #star1:checked .star1 {
   fill: gold;
 }
