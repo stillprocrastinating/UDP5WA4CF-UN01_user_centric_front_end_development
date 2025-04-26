@@ -12,7 +12,6 @@
 
 - nav increase font-size on desktop.
 - nav dropdown highlight color red.
-- nav set z-index to 99.
 - don't use buttons, just style links as buttons
 - use classes for everything, not descendants
 - use media queries for story cards
