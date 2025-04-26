@@ -41,7 +41,7 @@ h1, h2 {
 nav {
     position: sticky;
     top: 0;
-  }
+}
 
 nav .collapse a {
     font-size: small;
@@ -52,7 +52,7 @@ nav .collapse a {
 /* header */
 
 header {
-    background: url(../images/prp/header_background_image.webp) no-repeat bottom center / cover;
+    background: url(../images/prp/header_background_image.webp) no-repeat bottom right / cover;
     text-align: center;
     padding-top: 10vh;
     padding-bottom: 1vh;
