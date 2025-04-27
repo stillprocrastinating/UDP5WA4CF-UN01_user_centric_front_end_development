@@ -19,10 +19,15 @@
 body {
   background: var(--color-body-background);
   font-family: var(--font-p);
+  max-width: 100vw;
 }
 
 main {
   min-height: 75vh;
+}
+
+small {
+  font-size: x-small;
 }
 
 .container {
@@ -34,17 +39,21 @@ main {
   font-size: xx-small;
 }
 
-h1, h2, h3, .fake-header {
+.heading {
   font-family: var(--font-h);
   margin: 0px;
 }
 
-p {
+.text {
   font-family: var(--font-p);
   margin: 0px;
 }
 
-img {
+.font-size-medium {
+  font-size: medium;
+}
+
+.card-img {
   margin: 1vh 0 0 0;
   border-radius: 5%;
 }
@@ -52,7 +61,7 @@ img {
 
 /* navigation */
 
-nav {
+.nav {
   background: var(--color-transparent-dark);
   text-align: center;
   vertical-align: middle;
@@ -62,7 +71,7 @@ nav {
   z-index: 99;
 }
 
-nav .container {
+.nav-container {
   display: flex;
   min-width: 100vw;
   gap: 1vw;
@@ -70,7 +79,7 @@ nav .container {
   justify-content: space-around;
 }
 
-nav a, nav p {
+.nav-text {
   font-family: var(--font-p);
   font-size: x-large;
   letter-spacing: 1px;
@@ -85,11 +94,11 @@ nav a, nav p {
   font-size: x-large;
 }
 
-.nav-link.disabled {
+.disabled-nav-link {
   color: white;
 }
 
-nav button {
+.nav-button {
   background: #000000;
   border: none;
   height: 60px;
@@ -98,7 +107,7 @@ nav button {
   font-weight: bold;
 }
 
-nav button:hover {
+.nav-button:hover {
   background: var(--color-dnd-red);
   color: #000000;
   transition: 1s;
@@ -106,7 +115,7 @@ nav button:hover {
   box-shadow: 0 0 50px #000000;
 }
 
-nav button:hover p {
+.nav-button:hover .nav-text {
   color: #000000;
   transition: 1s;
   font-weight: bold;
@@ -116,10 +125,6 @@ nav button:hover p {
   text-decoration: underline;
 }
 
-small {
-  font-size: x-small;
-}
-
 nav .show {
   margin-top: 10px;
 }
@@ -127,7 +132,7 @@ nav .show {
 
 /* header */
 
-header {
+.header {
   background: url(../images/header_background_image.webp) no-repeat 30% 100% / cover;
   text-align: center;
   padding-top: 25vh;
@@ -137,27 +142,23 @@ header {
 
 /* about */
 
-#about h3 {
-  font-size: medium;
-}
-
-#about .card {
+.about-card {
   color: var(--color-body-background);
 }
 
-#about .card-header {
+.about-card-header {
   background-color: var(--color-quote-header);
 }
 
-#about .card-body {
+.about-card-body {
   background-color: var(--color-quote-body);
 }
 
-.blockquote {
+.about-blockquote {
   font-size: small;
 }
 
-.blockquote-footer {
+.about-blockquote-footer {
   font-size: medium;
   font-weight: bold;
 }
@@ -170,20 +171,20 @@ header {
   text-decoration: underline black dashed 1px;
 }
 
-.prp h5 {
+.prp-h5 {
   font-family: "Orbitron", "Courier New", Courier, monospace;
   color: #a1f9ff;
 }
 
-.prp p {
+.prp-p {
   font-family: "Orbitron", "Courier New", Courier, monospace;
 }
 
-.prp a {
+.prp-a {
   color: yellow;
 }
 
-.bob h5 {
+.bob-h5 {
   font-family: var(--font-h);
   color: var(--color-body-background);
 }
@@ -191,7 +192,7 @@ header {
 
 /* icons */
 
-svg {
+/* svg */ .icon-svg {
   vertical-align: text-top;
 }
 
@@ -205,34 +206,34 @@ svg {
   border-radius: 5%;
 }
 
-.info a {
+/* .info a */ .info-a {
   color: var(--color-body-link);
 }
 
-.info h1 {
+/* .info h1 */ .info-heading {
   margin-left: 5%;
 }
 
-.info h2, .info ul {
+/* .info h2, .info ul */ .info-margin {
   margin-left: 10%;
 }
 
 
 /* end of teaser */
 
-.margin-b-5 {
+/*.margin-b-5 -- change to mb-5 / equivalent {
   margin-bottom: 5px;
-}
+}*/
 
 
 /* form */
 
-#star-rating svg, #star-rating label {
+/* #star-rating svg, #star-rating label */ .square-50px {
   width: 50px;
   height: 50px;
 }
 
-#star-rating label {
+/* #star-rating label */ .rating-label {
   margin: -50px -5px auto;
 }
 
@@ -241,7 +242,7 @@ svg {
   transition: 1s;
 }
 
-label:hover .star {
+/* label:hover */ .rating-label:hover .star {
   fill: gold;
 }
 
@@ -253,7 +254,7 @@ label:hover .star {
 
 /* footer */
 
-footer {
+/* footer */ .footer {
   background-color: var(--color-transparent-dark);
   display: flex;
   justify-content: space-evenly;
@@ -265,7 +266,7 @@ footer {
   justify-content: space-evenly;
 }
 
-footer button {
+/* footer button */ .footer-button {
   background-color: #00000000;
   border: none;
   border-radius: 0;
@@ -276,15 +277,15 @@ footer button {
   min-width: 25px;
 }
 
-footer button:hover {
+/* footer button:hover */ .footer-button:hover {
   box-shadow: none;
 }
 
-footer path {
+/* footer path */ .footer-svg-path {
   fill: var(--color-dnd-red);
 }
 
-footer button:hover path {
+/* footer button:hover path */ .footer-button:hover .footer-svg-path {
   fill: #000000;
   transition: 5s;
 }
@@ -299,10 +300,7 @@ footer button:hover path {
 }
 
 @media screen and (min-width: 768px) {
-  
-  /* header */
-
-  header {
+  .header {
     padding-top: 25vh;
     padding-bottom: 25vh;
     text-align: end;

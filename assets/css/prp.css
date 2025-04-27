@@ -18,14 +18,17 @@
 }
 
 body {
-  background: var(--color-light);
-  font-family: var(--font-p);
-  font-weight: 100;
-  font-size: 100%;
-  color: var(--color-body);
+    background: var(--color-light);
 }
 
-h1, h2 {
+.prp-text {
+    font-family: var(--font-p);
+    font-weight: 100;
+    font-size: 100%;
+    color: var(--color-body);
+}
+
+.prp-heading {
     font-family: var(--font-p);
 }
 
@@ -38,12 +41,12 @@ h1, h2 {
 
 /* nav */
 
-nav {
+.prp-nav {
     position: sticky;
     top: 0;
 }
 
-nav .collapse a {
+.nav-collapse-a {
     font-size: small;
     color: var(--color-body-link);
 }
@@ -51,14 +54,14 @@ nav .collapse a {
 
 /* header */
 
-header {
+.prp-header {
     background: url(../images/prp/header_background_image.webp) no-repeat bottom right / cover;
     max-width: 100vw;
     text-align: center;
     padding-bottom: 1vh;
 }
 
-h1 {
+.prp-title {
     font-family: var(--font-p);
     color: black;
     font-size: 100%;
@@ -68,7 +71,7 @@ h1 {
 
 /* blurb */
 
-fieldset {
+.glitch-text {
     background: var(--color-transparent);
     border: outset var(--color-dark);
     border-radius: 5%;
@@ -79,7 +82,7 @@ fieldset {
     margin: 1%;
 }
 
-legend {
+.glitch-heading {
     font-family: var(--font-glitch-h);
     font-size: 150%;
     color: var(--color-body-highlight);
@@ -136,23 +139,13 @@ legend {
 
 /* fact */
 
-.fact h1 {
+.fact-heading {
     font-weight: normal;
 }
 
 /* end of teaser  */
 
-#end button {
-    background: var(--color-transparent-dark) url(../images/prp/buttons.webp) no-repeat center center / cover;
-    border: none;
-    display: inline-block;
-    height: 2rem;
-    width: 100%;
-    color: white;
-    font-family: var(--font-glitch-h);
-}
-
-.end__button {
+.end-button {
     background: var(--color-transparent-dark) url(../images/prp/buttons.webp) no-repeat center center / cover;
     border: none;
     display: inline-block;
@@ -166,13 +159,13 @@ legend {
 /* device media queries */
 
 @media screen and (max-width: 1024px) {
-    header {
+    .prp-header {
         padding-top: 10vh;
     }
 }
   
 @media screen and (min-width: 1024px) {
-    h1 {
+    .prp-heading {
       font-size: 200%;
     }
 }

@@ -13,7 +13,6 @@
 - nav increase font-size on desktop.
 - nav dropdown highlight color red.
 - don't use buttons, just style links as buttons
-- use classes for everything, not descendants
 - use media queries for story cards
 - increase font size for story cards (on larger screens)
 
