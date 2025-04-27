@@ -59,7 +59,7 @@ header {
     padding-bottom: 1vh;
 }
 
-header h1 {
+h1 {
     font-family: var(--font-p);
     color: black;
     font-size: 100%;
@@ -162,3 +162,14 @@ legend {
     color: white;
     font-family: var(--font-glitch-h);
 }
+
+
+/* device media queries */
+
+@media screen and (min-width: 1024px) {
+    h1 {
+      font-size: 200%;
+    }
+  }
+  
+  
