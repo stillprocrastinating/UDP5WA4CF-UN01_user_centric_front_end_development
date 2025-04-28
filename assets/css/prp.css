@@ -172,5 +172,9 @@ body {
     .prp-nav-text, .prp-heading {
       font-size: 200%;
     }
+
+    .nav-chapter {
+        padding-top: 15px;
+    }
 }
 
