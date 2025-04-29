@@ -51,7 +51,7 @@ body {
 }
 
 .nav-collapse-a {
-    font-size: small;
+    font-size: medium;
     color: var(--color-body-link);
 }
 
