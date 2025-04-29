@@ -42,11 +42,6 @@ body {
 
 /* nav */
 
-.prp-nav {
-    position: sticky;
-    top: 0;
-}
-
 .prp-nav-text {
     font-size: 100%;
 }
@@ -60,7 +55,7 @@ body {
 /* header */
 
 .prp-header {
-    background: url(../images/prp/header_background_image.webp) no-repeat 20% 50% / cover;
+    background: url(../images/prp/header_background_image.webp) no-repeat 20% 40% / cover;
     max-width: 100vw;
     text-align: center;
     padding-bottom: 1vh;
@@ -174,7 +169,7 @@ body {
     }
 
     .prp-header {
-        padding-top: 30vh;
+        padding-top: 40vh;
     }
 }
 
