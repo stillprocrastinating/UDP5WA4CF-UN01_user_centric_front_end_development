@@ -176,6 +176,18 @@ nav .show {
 
 /* story tiles */
 
+.card-img-overlay {
+  position: initial;
+}
+
+.card-prp {
+  background: url(../images/tile_prp_background_image.webp) no-repeat 30% 30% / cover;
+}
+
+.card-bob {
+  background: url(../images/tile_bob_background_image.webp) no-repeat 35% 100% / cover;
+}
+
 .coming-soon {
   color: var(--color-dnd-red);
   text-decoration: underline black dashed 1px;
@@ -183,7 +195,7 @@ nav .show {
 
 .prp-h5 {
   font-family: "Orbitron", "Courier New", Courier, monospace;
-  color: #a1f9ff;
+  color: #FF2E74;
 }
 
 .prp-p {
@@ -191,7 +203,7 @@ nav .show {
 }
 
 .prp-a {
-  color: yellow;
+  color: #FF8285;
 }
 
 .bob-h5 {
@@ -302,12 +314,6 @@ nav .show {
 
 
 /* device media queries */
-
-@media screen and (max-width: 768px) {
-  .card-img-overlay {
-    position: initial;
-  }
-}
 
 @media screen and (min-width: 768px) {
   .header {
