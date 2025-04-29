@@ -7,6 +7,7 @@
 
 :root {
     --color-body: rgb(13, 13, 58);
+    --color-body-background: #FF8285;
     --color-body-highlight: midnightblue;
     --color-body-link: yellow;
     --color-dark: rgba(25, 25, 112, 0.75);
@@ -59,7 +60,7 @@ body {
 /* header */
 
 .prp-header {
-    background: url(../images/prp/header_background_image.webp) no-repeat 90% 65% / cover;
+    background: url(../images/prp/header_background_image.webp) no-repeat 20% 50% / cover;
     max-width: 100vw;
     text-align: center;
     padding-bottom: 1vh;
@@ -68,7 +69,7 @@ body {
 
 .prp-title {
     font-family: var(--font-p);
-    color: black;
+    color: var(--color-body-background);
     font-size: 100%;
     width: 100vw;
 }
