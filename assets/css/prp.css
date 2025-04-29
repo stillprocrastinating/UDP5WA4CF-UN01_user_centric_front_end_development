@@ -7,11 +7,11 @@
 
 :root {
     --color-body: rgb(13, 13, 58);
-    --color-body-background: #FF8285;
+    --color-title: #FF2E74;
     --color-body-highlight: midnightblue;
-    --color-body-link: yellow;
+    --color-body-link: #FF8285;
     --color-dark: rgba(25, 25, 112, 0.75);
-    --color-light: #a1f9ff;
+    --color-light: #80E3FF;
     --color-transparent: rgba(25, 25, 112, 0.25);
     --font-glitch-h: "Rubik Lines", "Orbitron", "Courier New", Courier, monospace;
     --font-glitch-p: "Jersey 10 Charted", "Orbitron", "Courier New", Courier, monospace;
@@ -69,7 +69,7 @@ body {
 
 .prp-title {
     font-family: var(--font-p);
-    color: var(--color-body-background);
+    color: var(--color-title);
     font-size: 100%;
     width: 100vw;
 }
