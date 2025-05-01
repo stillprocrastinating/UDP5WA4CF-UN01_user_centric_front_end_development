@@ -217,13 +217,6 @@ nav .show {
 }
 
 
-/* icons */
-
-svg /*.icon-svg*/ {
-  vertical-align: text-top;
-}
-
-
 /* info */
 
 .info {
@@ -231,6 +224,10 @@ svg /*.icon-svg*/ {
   padding: 1%;
   margin: 1%;
   border-radius: 5%;
+}
+
+/*svg*/ .info-svg {
+  vertical-align: text-top;
 }
 
 /* .info a */ .info-a {
