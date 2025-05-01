@@ -37,8 +37,12 @@ small {
 }
 
 .heading {
-  font-family: var(--font-h);
   margin: 0px;
+  color: var(--color-quote-header);
+}
+
+.heading-font {
+  font-family: var(--font-h);
 }
 
 .text {
@@ -324,6 +328,10 @@ nav .show {
 }
 
 @media screen and (min-width: 1024px) {
+  body {
+    font-size: larger;
+  }
+
   .header {
     padding-top: 30vh;
     padding-bottom: 20vh;
@@ -333,6 +341,10 @@ nav .show {
 
   .title {
     color: var(--color-quote-header);
+  }
+
+  .card-prp, .prp-h5, .card-bob, .bob-h5 {
+    font-size: larger;
   }
 }
 
