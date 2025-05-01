@@ -219,7 +219,7 @@ nav .show {
 
 /* icons */
 
-/* svg */ .icon-svg {
+svg /*.icon-svg*/ {
   vertical-align: text-top;
 }
 
@@ -244,13 +244,6 @@ nav .show {
 /* .info h2, .info ul */ .info-margin {
   margin-left: 10%;
 }
-
-
-/* end of teaser */
-
-/*.margin-b-5 -- change to mb-5 / equivalent {
-  margin-bottom: 5px;
-}*/
 
 
 /* form */
