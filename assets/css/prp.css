@@ -148,6 +148,15 @@ body {
     font-weight: normal;
 }
 
+
+/* story */
+
+.story {
+    width: 90%;
+    margin: auto;
+}
+
+
 /* end of teaser  */
 
 .end-button {
@@ -183,6 +192,10 @@ body {
 
     .prp-header {
         padding-top: 40vh;
+    }
+
+    .story {
+        width: 75%;
     }
 }
 
