@@ -55,6 +55,10 @@ body {
     color: var(--color-body-link);
 }
 
+.prp-form-story-select {
+    margin-top: -5px;
+}
+
 
 /* header */
 
