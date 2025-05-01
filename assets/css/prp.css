@@ -158,6 +158,15 @@ body {
     width: 100%;
     color: white;
     font-family: var(--font-glitch-h);
+    text-decoration: none;
+    text-align: center;
+}
+
+.end-button:hover {
+    text-decoration: underline;
+    color: var(--color-body-link);
+    background: var(--color-transparent-dark) url(../images/prp/buttons.webp) no-repeat center top / cover;
+    transition: 1s;
 }
 
 
