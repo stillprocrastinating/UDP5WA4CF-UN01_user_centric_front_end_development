@@ -161,11 +161,15 @@ nav .show {
   background-color: var(--color-quote-body);
 }
 
-.about-blockquote {
-  font-size: small;
-}
-
 .about-blockquote-footer {
+  letter-spacing: 1px;
+  color: var(--color-body-background);
+  margin-bottom: 0px;
+  line-height: 2.5rem;
+  height: 3rem;
+  width: 100%;
+  text-align: center;
+  background-color: var(--color-quote-header);
   font-size: medium;
   font-weight: bold;
 }
