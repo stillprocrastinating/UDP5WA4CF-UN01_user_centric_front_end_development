@@ -33,6 +33,10 @@ body {
     font-family: var(--font-p);
 }
 
+.prp-link-color {
+    color: var(--color-body-link);
+}
+
 .wallbreak {
     font-family: var(--font-glitch-p);
     font-size: 125%;
