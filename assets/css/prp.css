@@ -182,6 +182,13 @@ body {
 }
 
 
+/* form */
+
+.form-prp-heading {
+    color: var(--color-title);
+}
+
+
 /* device media queries */
   
 @media screen and (min-width: 1024px) {
