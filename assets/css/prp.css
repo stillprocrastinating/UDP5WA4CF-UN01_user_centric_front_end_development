@@ -188,6 +188,11 @@ body {
     color: var(--color-title);
 }
 
+.form-submit-button {
+    font-size: 2rem;
+    height: 3rem;
+}
+
 
 /* device media queries */
   
