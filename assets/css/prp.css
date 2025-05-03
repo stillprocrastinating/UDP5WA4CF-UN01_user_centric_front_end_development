@@ -188,7 +188,7 @@ body {
     color: var(--color-title);
 }
 
-.form-submit-button {
+.form-prp-submit-button {
     font-size: 2rem;
     height: 3rem;
 }
