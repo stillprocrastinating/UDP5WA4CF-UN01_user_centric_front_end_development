@@ -273,6 +273,10 @@ nav .show {
   max-width: 90%;
 }
 
+#feedback {
+  min-height: 100px;
+}
+
 
 /* footer */
 
@@ -343,3 +347,8 @@ nav .show {
   }
 }
 
+@media screen and (min-width: 1440px) {
+  #feedback {
+    min-height: 20vh;
+  }
+}
