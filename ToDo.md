@@ -6,8 +6,6 @@
 
 - `prp.html` Add flexbox functionality to `<h1>Group 10461</h1>` / `.info`.
 
-- Add media query for `footer {position: sticky; bottom: 0px;}` - conditional on Marcels' reply.
-
 ## Mentor tasks
 
 >Check with Raghav regarding commenting style - email sent - response via meeting: Okay with it on a personal level, but consider using the standard commenting style for potential employer viewers on GitHub.
