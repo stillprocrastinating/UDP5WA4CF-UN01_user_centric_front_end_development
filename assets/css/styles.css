@@ -268,6 +268,11 @@ nav .show {
   fill: gold;
 }
 
+.form-question-labels label {
+  vertical-align: top;
+  max-width: 90%;
+}
+
 
 /* footer */
 
