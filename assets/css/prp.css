@@ -188,6 +188,10 @@ body {
     color: var(--color-title);
 }
 
+.stars i.active {
+    color: var(--color-title);
+}
+
 .form-prp-submit-button {
     font-size: 2rem;
     height: 3rem;
