@@ -226,19 +226,26 @@ nav .show {
   border-radius: 5%;
 }
 
-/*svg*/ .info-svg {
+.info-svg {
+  width: 29px;
+  height: 29px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2px;
+  stroke-linecap: round;
+  stroke-linejoin: round;
   vertical-align: text-top;
 }
 
-/* .info a */ .info-a {
+.info-a {
   color: var(--color-body-link);
 }
 
-/* .info h1 */ .info-heading {
+.info-heading {
   margin-left: 5%;
 }
 
-/* .info h2, .info ul */ .info-margin {
+.info-margin {
   margin-left: 10%;
 }
 
@@ -348,6 +355,11 @@ nav .show {
     text-align: end;
     padding-right: 10vw;
   }
+
+  .info-svg {
+    width: 32px;
+    height: 32px;
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -368,6 +380,11 @@ nav .show {
 
   .card-prp, .prp-h5, .card-bob, .bob-h5 {
     font-size: larger;
+  }
+
+  .info-svg {
+    width: 48px;
+    height: 48px;
   }
 
   .stars i {
