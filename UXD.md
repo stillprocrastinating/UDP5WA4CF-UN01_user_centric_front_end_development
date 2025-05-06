@@ -105,8 +105,8 @@ All pages will feature the footer.
 
 ### Navigation design
 
-- Phones: Burger icon hidden menus.
-- Larger devices: Top of screen menus. Hidden/dropdown chapter select menus.
+- ~~Phones: Burger icon hidden menus.~~
+- ~~Larger devices:~~ Top of screen menus. Hidden/dropdown story/chapter select menus.
 
 ### Information design
 
