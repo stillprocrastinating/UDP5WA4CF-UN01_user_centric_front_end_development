@@ -252,29 +252,6 @@ nav .show {
 
 /* form */
 
-/*#star-rating svg, #star-rating label .square-50px {
-  width: 50px;
-  height: 50px;
-}*/
-
-/*#star-rating label .rating-label {
-  margin: -50px -5px auto;
-}*/
-
-/*.star {
-  fill: var(--color-dnd-red);
-  transition: 1s;
-}*/
-
-/*label:hover .rating-label:hover .star {
-  fill: gold;
-}*/
-
-/* FIX */
-/*#star1:checked .star1 {
-  fill: gold;
-}*/
-
 .star-container {
   position: relative;
   display: flex;
@@ -306,6 +283,31 @@ nav .show {
 
 #feedback {
   min-height: 100px;
+}
+
+
+/* success page */
+
+.success-button {
+  display: inline-block;
+  background: url(../images/header_background_image.webp) no-repeat 49% 89% / auto;
+  height: 4rem;
+  padding: 1rem 5rem;
+  border: 1px solid var(--color-quote-body);
+  box-shadow: 15px 15px 15px var(--color-transparent-dark);
+  color: black;
+  font-size: 1.25rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.success-button:hover {
+  transition: 1s;
+  border: 1px solid var(--color-quote-header);
+  box-shadow: 20px 20px 10px var(--color-transparent-dark);
+  background: url(../images/header_background_image.webp) no-repeat 83% 100% / auto;
+  color: white;
+  text-decoration: 1px underline;
 }
 
 
@@ -359,6 +361,12 @@ nav .show {
   .info-svg {
     width: 32px;
     height: 32px;
+  }
+
+  .success-button {
+    height: 5rem;
+    padding: 1rem 5rem;
+    font-size: 2rem;
   }
 }
 
