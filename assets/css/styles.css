@@ -313,7 +313,7 @@ nav .show {
 
 /* footer */
 
-/* footer */ .footer {
+.footer {
   background-color: var(--color-transparent-dark);
   display: flex;
   justify-content: space-evenly;
@@ -325,7 +325,7 @@ nav .show {
   justify-content: space-evenly;
 }
 
-/* footer button */ .footer-button {
+.footer-button {
   background-color: #00000000;
   border: none;
   border-radius: 0;
@@ -336,17 +336,23 @@ nav .show {
   min-width: 25px;
 }
 
-/* footer button:hover */ .footer-button:hover {
+.footer-button:hover {
   box-shadow: none;
 }
 
-/* footer path */ .footer-svg-path {
+.footer-svg-path {
   fill: var(--color-dnd-red);
 }
 
-/* footer button:hover path */ .footer-button:hover .footer-svg-path {
+.footer-button:hover .footer-svg-path {
   fill: #000000;
   transition: 1s;
+}
+
+.footer-fixed {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
 }
 
 
