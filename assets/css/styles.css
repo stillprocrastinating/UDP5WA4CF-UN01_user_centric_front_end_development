@@ -211,6 +211,11 @@ nav .show {
   color: #FF8285;
 }
 
+.prp-a:hover {
+  color: #FF2E74;
+  transition: 1s;
+}
+
 .bob-h5 {
   font-family: var(--font-h);
   color: var(--color-body-background);
