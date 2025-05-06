@@ -337,7 +337,7 @@ nav .show {
 
 /* footer button:hover path */ .footer-button:hover .footer-svg-path {
   fill: #000000;
-  transition: 5s;
+  transition: 1s;
 }
 
 
