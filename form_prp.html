@@ -6,12 +6,18 @@
     <meta name="description" content="Petrification Restoration Project is a recounting of a homebrew Dungeons & Dragons game. This is a teaser of the first five chapters. The full story can also be purchased via the feedback form.">
     <meta name="keywords" content="D&D, Dungeons & Dragons, DnD, D&D Stories, PRP, Petrification Restoration Project, dystopian, future, futuristic, adventure, problem, solve, solving, fun, science, scientist, journal, diary, drama">
     <title>PRP Feedback | D&D Stories</title>
-    <!-- Bootstrap --><link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"  crossorigin="anonymous">
-    <!-- styles.css --><link rel="stylesheet" href="assets/css/styles.css">
-    <!-- prp.css --><link rel="stylesheet" href="assets/css/prp.css">
     <!-- favicon --><link rel="apple-touch-icon" href="assets/favicon/apple-touch-icon.png" sizes="180x180">
     <!-- favicon --><link rel="icon" href="assets/favicon/favicon-32x32.png" sizes="32x32" type="image/png">
     <!-- favicon --><link rel="icon" href="assets/favicon/favicon-16x16.png" sizes="16x16" type="image/png">
+    <!-- css Bootstrap --><link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <!-- css styles --><link rel="stylesheet" href="assets/css/styles.css">
+    <!-- css prp --><link rel="stylesheet" href="assets/css/prp.css">
+    <!-- js Bootstrap --><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous" defer></script>
+    <!-- js Font Awesome --><script src="https://kit.fontawesome.com/f16d074ce1.js" crossorigin="anonymous" defer></script>
+    <!-- js nav .collapse auto close after anchor click --><script src="assets/js/nav_auto_collapse.js" defer></script>
+    <!-- js discord functionality --><script src="assets/js/discord.js" defer></script>
+    <!-- js email functionality --><script src="assets/js/email.js" defer></script>
+    <!-- js star rating functionality --><script src="assets/js/star_rating.js" defer></script>
   </head>
   <body class="prp-text">
     <nav class="nav prp-nav">
@@ -207,62 +213,5 @@
         </div>
       </div>
     </footer>
-    <!-- Bootstrap --><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
-    <!-- Font Awesome --><script src="https://kit.fontawesome.com/f16d074ce1.js" crossorigin="anonymous"></script>
-    <!-- nav .collapse auto close after anchor click --><script>
-      document
-      .querySelectorAll(".collapse .nav-link")
-      .forEach((link) => {
-        link.addEventListener("click", function (e) {
-          let section = document.querySelector(e.target.getAttribute("href"));
-          if (section) {
-            e.preventDefault(); // Prevent default anchor click behaviour //
-            let navbarHeight = document.querySelector(".navbar-toggler").offsetHeight;
-            window.scroll({
-              top: section.offsetTop - navbarHeight, // Adjust for navbar height //
-              behavior: "smooth",
-            });
-            document
-            .querySelector(".collapse")
-            .classList.remove("show"); // Collapse navbar //
-          }
-        })
-      })
-    </script>
-    <!-- discord functionality --><script>
-			function discord() {
-				alert("Feel free to drop me a message! My Discord name is .stillprocrastinating");
-			}
-			let buttondiscord = document.querySelector("button.discord");
-			buttondiscord.addEventListener("click", discord);
-		</script>
-    <!-- email functionality --><script>
-			function email() {
-				alert("Feel free to drop me a message! My email is rosemary.2008@live.co.uk");
-			}
-			let buttonemail = document.querySelector("button.email");
-			buttonemail.addEventListener("click", email);
-		</script>
-    <!-- form star rating functionality --><script>
-      // Select all elements with the "i" tag and store them in a Nodelist called "stars"
-      const stars = document.querySelectorAll(".stars i");
-      //console.log(stars);
-
-      // Loop through the "stars" Nodelist
-      stars.forEach((star, index1) => {
-        // Add an event listener which runs a function when the "click" event is triggered
-        star.addEventListener("click", () => {
-          //console.log("clicked");
-          //console.log("index1");
-          // Loop through the "stars" Nodelist again
-          stars.forEach((star, index2) => {
-            //console.log("index2");
-            // Add the "active" class to the clicked star and any stars with a lower index
-            // Remove the "active" class from any stars with a higher index
-            index1 >= index2 ? star.classList.add("active") : star.classList.remove("active");
-          });
-        });
-      });
-    </script>
   </body>
 </html>
