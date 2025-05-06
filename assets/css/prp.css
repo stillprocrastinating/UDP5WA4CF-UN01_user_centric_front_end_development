@@ -148,7 +148,9 @@ body {
 /* fact */
 
 .fact-heading {
+    font-family: var(--font-glitch-p);
     font-weight: normal;
+    font-size: xx-large;
 }
 
 
