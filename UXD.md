@@ -68,7 +68,9 @@ All content pages should be accessible from the homepage.
 
 ### Interface design
 
-All pages will feature a navigation menu, styled according to the theme of each story; the homepage will be themed with standard _Dungeons & Dragons_ vibes.
+All pages will feature a navigation menu, styled according to the theme of each story; the homepage, success page, and 404 page, will be themed with standard _Dungeons & Dragons_ vibes.
+
+All pages will feature the footer.
 
 #### Homepage
 
@@ -88,7 +90,18 @@ All pages will feature a navigation menu, styled according to the theme of each 
 
 1. Titled with respective image banner.
 1. Form to collect basic contact details and teaser opinion.
+1. Submit button links to succes page.
+
+#### Success page
+
+1. Form success text.
 1. Link to the [Amazon](https://www.amazon.co.uk/) site to purchase the full story.
+
+#### 404 page
+
+1. 404 error statement for clarity.
+1. Playful _Dungeons & Dragons_ messaging about being lost.
+1. Link to the homepage to restart navigation.
 
 ### Navigation design
 
