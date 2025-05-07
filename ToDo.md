@@ -8,8 +8,6 @@
 
 >Check with Raghav regarding commenting style - email sent - response via meeting: Okay with it on a personal level, but consider using the standard commenting style for potential employer viewers on GitHub.
 
-- prp link color / size
-
 - srat-rating, select default
 
 - rename full stories in navbar

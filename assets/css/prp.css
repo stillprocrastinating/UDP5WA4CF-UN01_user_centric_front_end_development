@@ -9,9 +9,10 @@
     --color-body: rgb(13, 13, 58);
     --color-title: #FF2E74;
     --color-body-highlight: midnightblue;
-    --color-body-link: #FF8285;
+    --color-body-link: #7A2B48;
     --color-dark: rgba(25, 25, 112, 0.75);
     --color-light: #80E3FF;
+    --color-light-highlight: #FF8285;
     --color-transparent: rgba(25, 25, 112, 0.25);
     --font-glitch-h: "Rubik Lines", "Orbitron", "Courier New", Courier, monospace;
     --font-glitch-p: "Jersey 10 Charted", "Orbitron", "Courier New", Courier, monospace;
@@ -113,35 +114,35 @@ body {
 
 .one {
     background: var(--color-transparent-dark) url(../images/prp/chapter1_background_image.webp) no-repeat center center / cover;
-    color: var(--color-body-link);
+    color: var(--color-light-highlight);
 }
 
 /* chapter 2 */
 
 .two {
     background: var(--color-transparent-dark) url(../images/prp/chapter2_background_image.webp) no-repeat center 69% / cover;
-    color: var(--color-body-link);
+    color: var(--color-light-highlight);
 }
 
 /* chapter 3 */
 
 .three {
     background: var(--color-transparent-dark) url(../images/prp/chapter3_background_image.webp) no-repeat center 69% / cover;
-    color: var(--color-body-link);
+    color: var(--color-light);
 }
 
 /* chapter 4 */
 
 .four {
     background: var(--color-transparent-dark) url(../images/prp/chapter4_background_image.webp) no-repeat center 40% / cover;
-    color: var(--color-body-link);
+    color: var(--color-light-highlight);
 }
 
 /* chapter 5 */
 
 .five {
     background: var(--color-transparent-dark) url(../images/prp/chapter5_background_image.webp) repeat center center / contain;
-    color: var(--color-body-link);
+    color: var(--color-title);
 }
 
 
@@ -220,7 +221,7 @@ body {
     
     .end-button:hover {
         text-decoration: underline;
-        color: var(--color-body-link);
+        color: var(--color-light-highlight);
         background: var(--color-transparent-dark) url(../images/prp/buttons.webp) no-repeat center top / cover;
         transition: 1s;
     }
