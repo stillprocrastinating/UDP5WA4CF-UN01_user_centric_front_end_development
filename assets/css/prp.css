@@ -184,6 +184,10 @@ body {
     color: var(--color-title);
 }
 
+.stars i:hover {
+    color: var(--color-light-highlight);
+}
+
 .stars i.active {
     color: var(--color-title);
 }
