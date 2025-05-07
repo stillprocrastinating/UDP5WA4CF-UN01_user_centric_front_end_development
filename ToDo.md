@@ -10,10 +10,6 @@
 
 - prp link color / size
 
-- Don't use "click here" - use "Leave feedback"
-
-- Use end-of -teaser-button:hover effects on mobile devices.
-
 - srat-rating, select default
 
 - rename full stories in navbar

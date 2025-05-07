@@ -165,7 +165,7 @@ body {
 /* end of teaser  */
 
 .end-button {
-    background: var(--color-transparent-dark) url(../images/prp/buttons.webp) no-repeat center center / cover;
+    background: var(--color-transparent-dark) url(../images/prp/buttons.webp) no-repeat center top / auto;
     border: none;
     display: inline-block;
     height: 2rem;
@@ -174,13 +174,6 @@ body {
     font-family: var(--font-glitch-h);
     text-decoration: none;
     text-align: center;
-}
-
-.end-button:hover {
-    text-decoration: underline;
-    color: var(--color-body-link);
-    background: var(--color-transparent-dark) url(../images/prp/buttons.webp) no-repeat center top / cover;
-    transition: 1s;
 }
 
 
@@ -217,6 +210,19 @@ body {
 
     .story {
         width: 75%;
+    }
+
+    .end-button {
+        background: var(--color-transparent-dark) url(../images/prp/buttons.webp) no-repeat center center / cover;
+        color: white;
+        text-decoration: none;
+    }
+    
+    .end-button:hover {
+        text-decoration: underline;
+        color: var(--color-body-link);
+        background: var(--color-transparent-dark) url(../images/prp/buttons.webp) no-repeat center top / cover;
+        transition: 1s;
     }
 }
 
