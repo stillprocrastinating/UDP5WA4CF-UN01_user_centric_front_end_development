@@ -193,6 +193,35 @@ body {
     height: 3rem;
 }
 
+.form-border {
+    border: 2px solid var(--color-body-link);
+    border-top-color: var(--color-light-highlight);
+    border-left-color: var(--color-light-highlight);
+    border-radius: 5px;
+}
+
+.form-radio {
+    appearance: none;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: var(--color-transparent-dark);
+    outline: 2px solid var(--color-body-link);
+}
+
+.form-radio:hover {
+    background-color: var(--color-light-highlight);
+}
+
+.form-radio:checked {
+    background-color: var(--color-title);
+}
+
+.form-checkbox {
+    border-radius: 0%;
+}
+
 
 /* device media queries */
   
