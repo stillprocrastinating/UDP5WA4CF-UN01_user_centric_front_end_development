@@ -297,7 +297,7 @@ nav .show {
   display: inline-block;
   background: url(../images/header_background_image.webp) no-repeat 49% 89% / auto;
   height: 4rem;
-  padding: 1rem 5rem;
+  padding: 1rem 4rem;
   border: 1px solid var(--color-quote-body);
   box-shadow: 15px 15px 15px var(--color-transparent-dark);
   color: black;
