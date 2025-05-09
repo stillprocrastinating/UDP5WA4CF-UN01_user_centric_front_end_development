@@ -374,6 +374,10 @@ nav .show {
     height: 32px;
   }
 
+  .form-input-width {
+    min-width: 350px;
+  }
+
   .success-button {
     height: 5rem;
     padding: 1rem 5rem;
