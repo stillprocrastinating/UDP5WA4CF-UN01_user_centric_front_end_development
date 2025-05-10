@@ -8,8 +8,6 @@
 
 >Check with Raghav regarding commenting style - email sent - response via meeting: Okay with it on a personal level, but consider using the standard commenting style for potential employer viewers on GitHub.
 
-- create full stories page
-
 - follow user stories format
 persona, 1-2, so that.
 
