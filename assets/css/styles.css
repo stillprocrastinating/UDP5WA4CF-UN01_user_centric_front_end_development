@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Eagle+Lake&display=swap'); /* font h */
 @import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap'); /* font p */
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap'); /* prp */
+@import url('https://fonts.googleapis.com/css2?family=Jolly+Lodger&display=swap'); /* mom h */
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap'); /* mom p */
 
 
 /* body */
@@ -193,9 +195,8 @@ nav .show {
   background: url(../images/tile_bob_background_image.webp) no-repeat 35% 100% / cover;
 }
 
-.coming-soon {
-  color: var(--color-dnd-red);
-  text-decoration: underline black dashed 1px;
+.card-mom {
+  background: url(../images/tile_mom_background_image.webp) no-repeat center center / cover;
 }
 
 .prp-h5 {
@@ -205,6 +206,7 @@ nav .show {
 
 .prp-p {
   font-family: "Orbitron", "Courier New", Courier, monospace;
+  font-weight: lighter;
 }
 
 .prp-a {
@@ -219,6 +221,28 @@ nav .show {
 .bob-h5 {
   font-family: var(--font-h);
   color: var(--color-body-background);
+}
+
+.bob-coming-soon {
+  color: var(--color-dnd-red);
+  text-decoration: underline black dashed 1px;
+}
+
+.mom-h5 {
+  font-family: "Jolly Lodger", system-ui;
+  color: #cc00ff;
+  font-size: 2.5rem;
+}
+
+.mom-p {
+  font-family: "Jost", sans-serif;
+  font-weight: 300;
+}
+
+.mom-coming-soon {
+  font-family: "Jolly Lodger", sans-serif;
+  color: gold;
+  text-decoration: underline slategrey dashed 1px;
 }
 
 
@@ -401,7 +425,9 @@ nav .show {
     color: var(--color-quote-header);
   }
 
-  .card-prp, .prp-h5, .card-bob, .bob-h5 {
+  .card-prp, .prp-h5,
+  .card-bob, .bob-h5,
+  .card-mom {
     font-size: larger;
   }
 
