@@ -101,6 +101,12 @@ body {
     width: auto;
 }
 
+#amber-profile {
+    background: url(../images/prp/amber.webp) no-repeat 30% 50% / cover;
+    border-radius: 50%;
+    min-height: 150px;
+}
+
 
 /* chapters */
 
