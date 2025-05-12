@@ -10,10 +10,11 @@
 :root {
   --color-body-background: #FEE8C3;
   --color-body-link: var(--color-dnd-red);
-  --color-dnd-red: #ff0000e5;
+  --color-dnd-red-dark: #CC0000E5;
+  --color-dnd-red-light: #FF5C5CE5;
   --color-transparent-dark: #00000050;
   --color-quote-header: #454731;
-  --color-quote-body: #78744F;
+  --color-quote-body: #6F6B49;
   --font-h: 'Eagle Lake', serif;
   --font-p: 'Poiret One', sans-serif;
 }
@@ -57,12 +58,16 @@ small {
 }
 
 .text-link:hover {
-  color: var(--color-dnd-red);
+  color: var(--color-dnd-red-dark);
   transition: 1s;
 }
 
 .font-size-medium {
   font-size: medium;
+}
+
+code {
+  color: var(--color-dnd-red-dark);
 }
 
 
@@ -91,7 +96,7 @@ small {
   font-size: x-large;
   letter-spacing: 1px;
   line-height: 25px;
-  color: var(--color-dnd-red);
+  color: var(--color-dnd-red-light);
   text-decoration: none;
   flex-basis: 10vw;
 }
@@ -105,7 +110,7 @@ small {
 }
 
 .nav-button:hover {
-  background: var(--color-dnd-red);
+  background: var(--color-dnd-red-light);
   color: #000000;
   transition: 1s;
   font-weight: bold;
@@ -127,7 +132,7 @@ nav .show {
 }
 
 .nav-link {
-  color: var(--color-dnd-red);
+  color: var(--color-dnd-red-dark);
   font-size: x-large;
 }
 
@@ -228,13 +233,13 @@ nav .show {
 }
 
 .bob-coming-soon {
-  color: var(--color-dnd-red);
+  color: var(--color-dnd-red-light);
   text-decoration: underline black dashed 1px;
 }
 
 .mom-h5 {
   font-family: "Jolly Lodger", system-ui;
-  color: #cc00ff;
+  color: #D738FF;
   font-size: 2.5rem;
 }
 
@@ -245,7 +250,7 @@ nav .show {
 
 .mom-coming-soon {
   font-family: "Jolly Lodger", sans-serif;
-  color: gold;
+  color: #ffd700;
   text-decoration: underline slategrey dashed 1px;
 }
 
@@ -306,7 +311,7 @@ nav .show {
 }
 
 .stars i.active {
-  color: 1px solid var(--color-dnd-red);
+  color: 1px solid var(--color-dnd-red-dark);
 }
 
 .form-question-labels label {
@@ -374,7 +379,7 @@ nav .show {
 }
 
 .footer-svg-path {
-  fill: var(--color-dnd-red);
+  fill: var(--color-dnd-red-dark);
 }
 
 .footer-button:hover .footer-svg-path {

@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap'); /* font p */
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Lines&display=swap'); /* font glitch h */
 @import url('https://fonts.googleapis.com/css2?family=Jersey+10+Charted&display=swap'); /* font glitch p */
+@import url('https://fonts.googleapis.com/css2?family=Rationale&display=swap'); /* code */
 
 
 /* body */
 
 :root {
-    --color-body: rgb(13, 13, 58);
+    --color-body: #0d0d3a;
     --color-title: #FF2E74;
     --color-body-highlight: midnightblue;
     --color-body-link: #7A2B48;
@@ -14,6 +15,7 @@
     --color-light: #80E3FF;
     --color-light-highlight: #FF8285;
     --color-transparent: rgba(25, 25, 112, 0.25);
+    --font-code: "Rationale", sans-serif;
     --font-glitch-h: "Rubik Lines", "Orbitron", "Courier New", Courier, monospace;
     --font-glitch-p: "Jersey 10 Charted", "Orbitron", "Courier New", Courier, monospace;
     --font-p: "Orbitron", "Courier New", Courier, monospace;
@@ -72,7 +74,7 @@ body {
 
 .prp-title {
     font-family: var(--font-p);
-    color: var(--color-title);
+    color: #ffffff;
     font-size: 100%;
     width: 100vw;
 }
@@ -148,7 +150,7 @@ body {
 
 .five {
     background: var(--color-transparent-dark) url(../images/prp/chapter5_background_image.webp) repeat center center / contain;
-    color: var(--color-title);
+    color: #ffff00;
 }
 
 
@@ -166,6 +168,16 @@ body {
 .story {
     width: 90%;
     margin: auto;
+}
+
+/* code */
+
+.code {
+    font-family: var(--font-code);
+    color: #ffff00;
+    background: #000000;
+    padding: 2px 5px;
+    border-radius: 5px;
 }
 
 
@@ -187,15 +199,15 @@ body {
 /* form */
 
 .form-prp-heading {
-    color: var(--color-title);
+    color: var(--color-body-link);
 }
 
 .stars i:hover {
-    color: var(--color-light-highlight);
+    color: var(--color-title);
 }
 
 .stars i.active {
-    color: var(--color-title);
+    color: var(--color-body-link);
 }
 
 .form-prp-submit-button {
@@ -205,8 +217,8 @@ body {
 
 .form-border {
     border: 2px solid var(--color-body-link);
-    border-top-color: var(--color-light-highlight);
-    border-left-color: var(--color-light-highlight);
+    border-top-color: var(--color-title);
+    border-left-color: var(--color-title);
     border-radius: 5px;
 }
 
@@ -221,7 +233,7 @@ body {
 }
 
 .form-radio:hover {
-    background-color: var(--color-light-highlight);
+    background-color: #ffffff;
 }
 
 .form-radio:checked {
