@@ -6,10 +6,7 @@
 
 ## Mentor tasks
 
->Check with Raghav regarding commenting style - email sent - response via meeting: Okay with it on a personal level, but consider using the standard commenting style for potential employer viewers on GitHub.
-
-- follow user stories format
-persona, 1-2, so that.
+- Check with Raghav regarding commenting style - email sent - response via meeting: Okay with it on a personal level, but consider using the standard commenting style for potential employer viewers on GitHub.
 
 - features - use screenshots
 
@@ -17,9 +14,7 @@ persona, 1-2, so that.
 tabular
 by feature, expected outcome, pass / fail&how
 
-- form aria-labels
-
-- validators (html, css (js?)) under testing section
+>- validators (html, css (js?)) under testing section
 
 - remove commented code
 
