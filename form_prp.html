@@ -19,14 +19,14 @@
     <!-- js email functionality --><script src="assets/js/email.js" defer></script>
     <!-- js star rating functionality --><script src="assets/js/star_rating.js" defer></script>
   </head>
-  <body class="prp-text">
-    <nav class="nav prp-nav">
+  <body class="prp-text" aria-labelledby="navigation page-title name email star-rating enjoy purchase interest feedback submit-form socials">
+    <nav id="navigation" class="nav prp-nav">
       <div class="nav-container navbar-toggler">
-        <!-- Home --><a href="index.html" title="Go to homepage" class="nav-text prp-nav-text nav-button nav-home">
+        <!-- Home --><a href="index.html" aria-label="Go to homepage" class="nav-text prp-nav-text nav-button nav-home">
           Home
         </a>
         <!-- Story select --><div class="container-fluid navbar-toggler">
-          <button type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" title="Select a story" class="nav-button">
+          <button type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle story selection navigation" title="Select a story" class="nav-button">
             <p class="nav-text prp-nav-text nav-home prp-form-story-select">
               Story select
             </p>
@@ -34,25 +34,25 @@
           <div class="collapse" id="navbarNav">
             <ul class="navbar-nav">
               <!-- PRP --><li class="nav-item">
-                <a class="nav-collapse-a nav-link nav-text" href="prp.html" title="Petrification Restoration Project">
+                <a class="nav-collapse-a nav-link nav-text" href="prp.html" title="Petrification Restoration Project" aria-label="Go to the Petrification Restoration Project story">
                   PRP
                 </a>
               </li>
               <!-- BoB --><li class="nav-item">
-                <a class="nav-collapse-a nav-link nav-text disabled" aria-disabled="true">
+                <a class="nav-collapse-a nav-link nav-text disabled" aria-disabled="true" title="Band of Bards" aria-label="The Band of Bards story is coming soon">
                   <small>Coming soon:</small><br>BoB
                 </a>
               </li>
             </ul>
           </div>
         </div>
-        <!-- FIX --><!-- Full story --><a href="full_stories.html" title="Order the full story now!" class="nav-text prp-nav-text nav-button">
+        <!-- FIX --><!-- Full story --><a href="full_stories.html" aria-label="Order the full story now!" class="nav-text prp-nav-text nav-button">
           Full story
         </a>
       </div>
     </nav>
     <header class="prp-header">
-      <h1 class="prp-heading prp-title">
+      <h1 id="page-title" class="prp-heading prp-title">
         Petrification Restoration Project - Feedback Form
       </h1>
     </header>
@@ -63,35 +63,35 @@
             <label for="name">
               Name:
             </label>
-            <input id="name" type="text" name="name" placeholder="John Smith" autocomplete required class="form-input-width form-border">
+            <input id="name" type="text" name="name" placeholder="John Smith" autocomplete="name" required aria-required="true" class="form-input-width form-border">
           </div>
           <!-- email --><div class="mt-3 col-12 col-lg-6">
             <label for="email">
               Email:
             </label>
-            <input id="email" type="email" name="email" placeholder="john-smith@example.com" autocomplete required class="form-input-width form-border">
+            <input id="email" type="email" name="email" placeholder="john-smith@example.com" autocomplete="email" required aria-required="true" class="form-input-width form-border">
           </div>
         </div>
         <div class="row">
           <!-- star rating --><div id="star-rating" class="mt-3 col-12 star-container">
             <div class="stars">
-              <input type="radio" id="star1" name="stars" value="1" hidden required>
+              <input type="radio" id="star1" name="stars" value="1" hidden>
               <label for="star1">
                 <i class="fa-solid fa-star active"></i>
               </label>
-              <input type="radio" id="star2" name="stars" value="2" hidden required>
+              <input type="radio" id="star2" name="stars" value="2" hidden>
               <label for="star2">
                 <i class="fa-solid fa-star active"></i>
               </label>
-              <input type="radio" id="star3" name="stars" value="3" hidden required>
+              <input type="radio" id="star3" name="stars" value="3" hidden>
               <label for="star3">
                 <i class="fa-solid fa-star active"></i>
               </label>
-              <input type="radio" id="star4" name="stars" value="4" hidden required checked>
+              <input type="radio" id="star4" name="stars" value="4" hidden required aria-required="true" checked>
               <label for="star4">
                 <i class="fa-solid fa-star active"></i>
               </label>
-              <input type="radio" id="star5" name="stars" value="5" hidden required>
+              <input type="radio" id="star5" name="stars" value="5" hidden>
               <label for="star5">
                 <i class="fa-solid fa-star"></i>
               </label>
@@ -103,7 +103,7 @@
             <h2 class="form-prp-heading">
               How much did you enjoy the Petrification Restoration Project teaser?
             </h2>
-            <input type="radio" id="enjoy-big-yes" name="enjoy" value="4" required class="form-radio">
+            <input type="radio" id="enjoy-big-yes" name="enjoy" value="4" required aria-required="true" class="form-radio">
             <label for="enjoy-big-yes">
               Wow, I love this! I can't wait to read what happens next!
             </label>
@@ -132,7 +132,7 @@
             <h2 class="form-prp-heading">
               Would you buy the Petrification Restoration Project full story?
             </h2>
-            <input type="radio" id="purchase-yes" name="purchase" value="2" required class="form-radio">
+            <input type="radio" id="purchase-yes" name="purchase" value="2" required aria-required="true" class="form-radio">
             <label for="purchase-yes">
               Absolutely, yes!
             </label>
@@ -151,7 +151,7 @@
             <h2 class="form-prp-heading">
               Has this teaser story inspired you to try playing Dungeons & Dragons?
             </h2>
-            <input type="radio" id="interest-yes" name="interest" value="2" required class="form-radio">
+            <input type="radio" id="interest-yes" name="interest" value="2" required aria-required="true" class="form-radio">
             <label for="interest-yes">
               Yeah, sounds interesting!
             </label>
@@ -177,27 +177,27 @@
           <h2 class="form-prp-heading text-start text-xl-center">
             Feedback <small><em>(optional)</em></small>
           </h2>
-          <textarea id="feedback" class="col-12 form-border" name="feedback" placeholder="If you would like to leave a feedback message, please do so here. Thank you."></textarea>
+          <textarea id="feedback" class="col-12 form-border" name="feedback" placeholder="If you would like to leave a feedback message, please do so here. Thank you." aria-label="If you would like to leave a feedback message, please do so here. Thank you."></textarea>
         </div>
         <!-- submit --><div class="mt-3 text-center">
-          <input type="submit" class="end-button form-prp-submit-button">
+          <input id="submit-form" type="submit" class="end-button form-prp-submit-button">
         </div>
       </form>
     </main>
     <footer class="footer mt-3">
-      <div class="socials">
-        <a href="https://www.facebook.com/rosemary.2008.live" target="_blank" rel="noopener" aria-label="Look me up on Facebook (opens in a new tab)">
-            <button class="footer-button">
+      <div id="socials" class="socials">
+        <!-- Facebook --><a href="https://www.facebook.com/rosemary.2008.live" target="_blank" rel="noopener" aria-label="Look me up on Facebook (opens in a new tab)" title="Look me up on Facebook (opens in a new tab)">
+            <div class="footer-button">
                 <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                   <title>
                     Look me up on Facebook (opens in a new tab)
                   </title>
                   <path d="M9.101 23.691v-7.98H6.627v-3.667h2.474v-1.58c0-4.085 1.848-5.978 5.858-5.978.401 0 .955.042 1.468.103a8.68 8.68 0 0 1 1.141.195v3.325a8.623 8.623 0 0 0-.653-.036 26.805 26.805 0 0 0-.733-.009c-.707 0-1.259.096-1.675.309a1.686 1.686 0 0 0-.679.622c-.258.42-.374.995-.374 1.752v1.297h3.919l-.386 2.103-.287 1.564h-3.246v8.245C19.396 23.238 24 18.179 24 12.044c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.628 3.874 10.35 9.101 11.647Z" class="footer-svg-path"/>
                 </svg>
-            </button>
+              </div>
         </a>
-        <div>
-            <button class="footer-button discord">
+        <!-- Discord --><div>
+            <button class="footer-button discord" aria-label="Look me up on Discord (opens in a prompt window)">
                 <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                   <title>
                     Look me up on Discord (opens in a prompt window)
@@ -206,18 +206,18 @@
                 </svg>
             </button>
         </div>
-        <a href="https://github.com/stillprocrastinating" target="_blank" rel="noopener" aria-label="Look me up on GitHub (opens in a new tab)">
-            <button class="footer-button">
+        <!-- GitHub --><a href="https://github.com/stillprocrastinating" target="_blank" rel="noopener" aria-label="Look me up on GitHub (opens in a new tab)" title="Look me up on GitHub (opens in a new tab)">
+            <div class="footer-button">
               <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                 <title>
                   Look me up on GitHub (opens in a new tab)
                 </title>
                 <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" class="footer-svg-path"/>
               </svg>
-            </button>
+            </div>
         </a>
-        <div>
-            <button class="footer-button email">
+        <!-- Email --><div>
+            <button class="footer-button email" aria-label="Drop me an email (opens in a prompt window)">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
                     <title>
                       Drop me an email (opens in a prompt window)
