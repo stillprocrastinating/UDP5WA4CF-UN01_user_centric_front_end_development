@@ -52,6 +52,15 @@ small {
   margin: 0px;
 }
 
+.text-link {
+  color: var(--color-quote-body);
+}
+
+.text-link:hover {
+  color: var(--color-dnd-red);
+  transition: 1s;
+}
+
 .font-size-medium {
   font-size: medium;
 }
