@@ -54,7 +54,7 @@ body {
 
 .nav-collapse-a {
     font-size: medium;
-    color: var(--color-body-link);
+    color: var(--color-light-highlight);
 }
 
 .prp-form-story-select {
