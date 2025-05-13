@@ -14,8 +14,8 @@
 	- M(i) Design a website with a flow of information layout, and interaction feedback which are clear and unambiguous.
 - 2 Develop and implement a static Front end web application using HTML and CSS.
 	- 2.1 Create a website of at least 3 pages, or (if using a single scrolling page) at least 3 separate page areas, to match the design and to meet its stated purpose.
-	>- 2.2 Write custom CSS code that passes through the official ([Jigsaw](https://jigsaw.w3.org/css-validator/)) validator with no issues.
-	>- 2.3 Write custom HTML code that passes through the official [W3C](https://validator.w3.org) validator with no issues.
+	- 2.2 Write custom CSS code that passes through the official ([Jigsaw](https://jigsaw.w3.org/css-validator/)) validator with no issues.
+	- 2.3 Write custom HTML code that passes through the official [W3C](https://validator.w3.org) validator with no issues.
 	- 2.4 Incorporate images that are of sufficient resolution to not appear pixelated or stretched.
 	- 2.5 Code all external links to open in a separate tab when clicked.
 	- 2.6 Use CSS media queries or CSS Grid/[Bootstrap](https://getbootstrap.com) across the application to ensure the layout changes appropriately and maintains the page's structural integrity across device screen sizes.
@@ -95,8 +95,8 @@
 		- comments
 			>- all custom code files include clear and relevant comments explaining the purpose of code segments
 		- Compliant code
-			>- HTML code passes through the official [W3C](https://validator.w3.org) validator with no issues
-			>- CSS code passes through the official ([Jigsaw](https://jigsaw.w3.org/css-validator/)) validator with no issues
+			- HTML code passes through the official [W3C](https://validator.w3.org) validator with no issues
+			- CSS code passes through the official ([Jigsaw](https://jigsaw.w3.org/css-validator/)) validator with no issues
 			>- JavaScript code passes through a linter (e.g. [jslint.com](https://www.jslint.com)) with no major issues
 		- Robust code
 			- no logic errors are found when running code
