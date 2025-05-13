@@ -97,7 +97,7 @@
 		- Compliant code
 			- HTML code passes through the official [W3C](https://validator.w3.org) validator with no issues
 			- CSS code passes through the official ([Jigsaw](https://jigsaw.w3.org/css-validator/)) validator with no issues
-			>- JavaScript code passes through a linter (e.g. [jslint.com](https://www.jslint.com)) with no major issues
+			- JavaScript code passes through a linter (e.g. [jslint.com](https://www.jslint.com)) with no major issues
 		- Robust code
 			- no logic errors are found when running code
 			>- errors caused by user actions are handled

@@ -14,8 +14,6 @@
 tabular
 by feature, expected outcome, pass / fail&how
 
->- validators (html, css (js?)) under testing section
-
 - remove commented code
 
 - readme contents
