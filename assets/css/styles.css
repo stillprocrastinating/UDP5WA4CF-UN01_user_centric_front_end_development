@@ -9,7 +9,7 @@
 
 :root {
   --color-body-background: #FEE8C3;
-  --color-body-link: var(--color-dnd-red);
+  --color-body-link: var(--color-dnd-red-dark);
   --color-dnd-red-dark: #CC0000E5;
   --color-dnd-red-light: #FF5C5CE5;
   --color-transparent-dark: #00000050;
@@ -311,7 +311,7 @@ nav .show {
 }
 
 .stars i.active {
-  color: 1px solid var(--color-dnd-red-dark);
+  color: var(--color-dnd-red-dark);
 }
 
 .form-question-labels label {
