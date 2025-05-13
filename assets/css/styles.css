@@ -37,6 +37,7 @@ small {
 .hidden {
   color: transparent;
   font-size: xx-small;
+  margin: 0px;
 }
 
 .heading {
