@@ -25,7 +25,7 @@
 	- M(ii) Implement a website whose purpose is immediately evident to a new user without having to look at supporting documentation.
 	- M(iii) Implement a website that provides a solution to the user story demands and expectations.
 - 3 Maximise future maintainability through documentation, code structure and organisation.
-	>- 3.1 Write a `README.md` file for the web application that explains its purpose, the value that it provides to its users, and the deployment procedure.
+	- 3.1 Write a `README.md` file for the web application that explains its purpose, the value that it provides to its users, and the deployment procedure.
 	- 3.2 Insert screenshots of the finished project that align to relevant user stories.
 	>- 3.3 Attribute all code from external sources to its original source via comments above the code and (for larger dependencies) in the `README`.
 	>- 3.4 Clearly separate and identify code written for the website and code from external sources (e.g. libraries or tutorials).
