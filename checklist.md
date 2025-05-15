@@ -27,8 +27,8 @@
 - 3 Maximise future maintainability through documentation, code structure and organisation.
 	- 3.1 Write a `README.md` file for the web application that explains its purpose, the value that it provides to its users, and the deployment procedure.
 	- 3.2 Insert screenshots of the finished project that align to relevant user stories.
-	>- 3.3 Attribute all code from external sources to its original source via comments above the code and (for larger dependencies) in the `README`.
-	>- 3.4 Clearly separate and identify code written for the website and code from external sources (e.g. libraries or tutorials).
+	- 3.3 Attribute all code from external sources to its original source via comments above the code and (for larger dependencies) in the `README`.
+	- 3.4 Clearly separate and identify code written for the website and code from external sources (e.g. libraries or tutorials).
 	>- 3.5 Organise HTML and CSS code into well-defined and commented sections.
 	- 3.6 Place CSS code in external files, linked to the HTML page in the head element.
 	- 3.7 Write code that meets at least minimum standards for readability (consistent indentation, blank lines only appear individually or, at most, in pairs).
