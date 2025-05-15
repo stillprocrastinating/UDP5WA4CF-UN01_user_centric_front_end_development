@@ -41,6 +41,7 @@ body {
 
 .prp-link-color:hover {
     color: var(--color-title);
+    transition: 1s;
 }
 
 .wallbreak {
