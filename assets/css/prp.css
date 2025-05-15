@@ -39,6 +39,10 @@ body {
     color: var(--color-body-link);
 }
 
+.prp-link-color:hover {
+    color: var(--color-title);
+}
+
 .wallbreak {
     font-family: var(--font-glitch-p);
     font-size: 125%;
