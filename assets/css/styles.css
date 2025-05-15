@@ -389,9 +389,7 @@ nav .show {
 }
 
 .footer-fixed {
-  position: fixed;
-  bottom: 0px;
-  width: 100%;
+  position: static;
 }
 
 
@@ -416,6 +414,12 @@ nav .show {
     height: 5rem;
     padding: 1rem 5rem;
     font-size: 2rem;
+  }
+
+  .footer-fixed {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
   }
 }
 
