@@ -34,6 +34,10 @@ small {
   max-width: 90%;
 }
 
+.container-narrow {
+  max-width: 80%;
+}
+
 .hidden {
   color: transparent;
   font-size: xx-small;
@@ -389,7 +393,9 @@ nav .show {
 }
 
 .footer-fixed {
-  position: static;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
 }
 
 
@@ -416,10 +422,8 @@ nav .show {
     font-size: 2rem;
   }
 
-  .footer-fixed {
-    position: fixed;
-    bottom: 0px;
-    width: 100%;
+  .container-narrow {
+    max-width: 90%;
   }
 }
 
