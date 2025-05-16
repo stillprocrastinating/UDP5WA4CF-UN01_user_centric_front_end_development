@@ -40,9 +40,9 @@
 	- 4.3 Use consistent and effective markdown formatting to produce a `README` file that is well-structured, easy to follow, and has few grammatical errors.
 	- M(iv) Commit often, for each individual feature/fix, ensuring that commits are small and well-defined, with clear, descriptive messages.
 - 5 Test and deploy a Front end web application to a Cloud platform.
-	>- 5.1 Design and implement manual testing procedures to assess functionality, usability and responsiveness.
-	>- 5.2 Document the testing in the `README` or in a separate file.
-	>- 5.3 Deploy a final version of the code to a cloud-based hosting platform (e.g. [GitHub Pages](https://github.com/stillprocrastinating/UDP5WA4CF-UN01_user_centric_front_end_development/deployments)) and test to ensure it matches the development version.
+	- 5.1 Design and implement manual testing procedures to assess functionality, usability and responsiveness.
+	- 5.2 Document the testing in the `README` or in a separate file.
+	- 5.3 Deploy a final version of the code to a cloud-based hosting platform (e.g. [GitHub Pages](https://github.com/stillprocrastinating/UDP5WA4CF-UN01_user_centric_front_end_development/deployments)) and test to ensure it matches the development version.
 	- 5.4 Remove commented-out code before pushing final files to version control and deploying.
 	- 5.5 Ensure that there are no broken internal links.
 	- M(v) Present a clear rationale for the development of the project, in the `README`, demonstrating that it has a clear, welldefined purpose addressing the needs of, and user stories for a particular target audience (or multiple related audiences).
@@ -50,7 +50,7 @@
 	- M(vii) Fully document the development life cycle procedures in the `README` file.
 - The learner has a clear rationale for the development of this project and has produced a fully functioning, well-documented, website for a real-life audience.
 - The finished project has a clear, well-defined purpose addressing the needs of a particular target audience (or multiple related audiences). Its purpose would be immediately evident to a new user without having to look at supporting documentation. The design of the web site follows the principles of UX design and accessibility guidelines, and the site is fully responsive.
->- Code is well-organised and easy to follow, and the application has been fully tested, following a planned, manual testing procedure, with no obvious errors left in the code.
+- Code is well-organised and easy to follow, and the application has been fully tested, following a planned, manual testing procedure, with no obvious errors left in the code.
 - The development process is clearly evident through commit messages. The project’s documentation provides a clear rationale for the development of this project and covers all stages of the development life cycle.
 - The learner has documented a clear, __justified__, rationale for a real-world application and a comprehensive explanation of how it will be developed. The development of the project has resulted in a fully-functioning, interactive, web application, developed using at least one more advanced technique (e.g. CSS media queries).
 - The finished project is judged to be publishable in its current form with a clearly evidenced professional grade user interface and interaction adhering to current practice. There are no obvious errors in the code. Where there is a clear breach of accepted design/UX principles, or of accepted good practice in code organisation, these are fully justified, appropriate and acceptable to the target user. It clearly matches the design and demonstrates the characteristics of craftsmanship in the code.
@@ -107,7 +107,7 @@
 - Real world application
 	- Clearly understandable site-specific content is used rather than Lorem Ipsum placeholder text
 	- The final application is aligned to the user stories presented at the start of the project
-	>- Testing procedures are comprehensive, with a good level of coverage, and have clearly been followed. All noticeable errors have been corrected or documented. 
+	- Testing procedures are comprehensive, with a good level of coverage, and have clearly been followed. All noticeable errors have been corrected or documented. 
 	- Version control systems are used effectively:
 		- all code is managed in [Git](https://git-scm.com) with well-described commit messages
 		- there is a separate, well-defined commit for each individual feature/fix
@@ -117,7 +117,7 @@
 		- the project's documentation describes the UX design work undertaken for this project and the reasoning behind it
 			- wireframes, mockups, diagrams, etc., created as part of the design process are included in the project
 		- there is a clear separation between code written by the learner and code from external sources (e.g. libraries or tutorials). All code from external sources is attributed to its source via comments above the code and (for larger dependencies) in the `README`
-		>- the testing procedure is well documented either in the `README` or a separate file
+		- the testing procedure is well documented either in the `README` or a separate file
 		- the deployment procedure is fully documented in a section in the `README` file
 		- clear, well-described, explanatory commit messages describe the development process
 		- the `README` is well-structured and easy to follow
