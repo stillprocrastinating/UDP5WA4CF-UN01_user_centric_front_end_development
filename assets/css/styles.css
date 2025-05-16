@@ -34,10 +34,6 @@ small {
   max-width: 90%;
 }
 
-.container-narrow {
-  max-width: 80%;
-}
-
 .hidden {
   color: transparent;
   font-size: xx-small;
@@ -398,6 +394,10 @@ nav .show {
   width: 100%;
 }
 
+.mb-75 {
+  margin-bottom: 75px;
+}
+
 
 /* device media queries */
 
@@ -420,10 +420,6 @@ nav .show {
     height: 5rem;
     padding: 1rem 5rem;
     font-size: 2rem;
-  }
-
-  .container-narrow {
-    max-width: 90%;
   }
 }
 
